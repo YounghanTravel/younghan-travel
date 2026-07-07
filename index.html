@@ -16,8 +16,17 @@
     <a href="#destinations">이용국가</a>
     <a href="#partnership">제휴문의</a>
     <a href="#contact">문의하기</a>
-    <button class="lang-btn" onclick="setLanguage('ko')">한국어</button>
-<button class="lang-btn" onclick="setLanguage('zh')">繁體中文</button>
+ <div class="language-dropdown">
+  <button class="language-toggle" onclick="toggleLanguageMenu()">
+    🌐 <span id="current-lang">KO</span>
+  </button>
+
+  <div class="language-menu" id="language-menu">
+    <button onclick="setLanguage('ko')">한국어</button>
+    <button onclick="setLanguage('zh')">繁體中文</button>
+    <button onclick="setLanguage('en')">English</button>
+  </div>
+</div>
   </nav>
 </header>
 
