@@ -87,13 +87,22 @@ nav a:hover{
 }
 
 /* 공통 */
-section{
-    padding:80px 8%;
+section h2{
+    font-size:36px;
+    color:#0F172A;
+    margin-bottom:40px;
+    position:relative;
 }
 
-section h2{
-    font-size:34px;
-    margin-bottom:30px;
+section h2::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:4px;
+    background:#2563EB;
+    margin-top:12px;
+    border-radius:20px;
+}
 }
 
 .grid{
@@ -116,9 +125,14 @@ section h2{
     box-shadow:0 20px 40px rgba(37,99,235,.18);
 }
 }
+#destinations .card{
+    background:#0F172A;
+    color:white;
+}
 
-.gray{
-    background:#F8FAFC;
+#destinations .card h3{
+    color:white;
+}
 }
 
 footer{
