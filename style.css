@@ -274,3 +274,18 @@ footer p{
     font-size:30px;
   }
 }
+.lang-btn{
+  background:transparent;
+  border:1px solid rgba(255,255,255,.4);
+  color:white;
+  padding:8px 12px;
+  border-radius:8px;
+  margin-left:10px;
+  cursor:pointer;
+  font-weight:700;
+}
+
+.lang-btn:hover{
+  background:#2563eb;
+  border-color:#2563eb;
+}
