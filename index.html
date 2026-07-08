@@ -1,326 +1,610 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>YOUNGHAN TRAVEL | Airport Transfer Partner</title>
+  <title>YOUNGHAN TRAVEL | Korea & Asia Ground Service Partner</title>
 
-  <meta name="description" content="YOUNGHAN TRAVEL은 한국, 대만, 일본, 태국 공항 픽업 및 샌딩 서비스를 전문으로 운영하는 B2B 여행 파트너입니다.">
-  <meta name="keywords" content="공항픽업, 공항샌딩, Airport Transfer, 한국여행, 대만여행, 일본여행, 태국여행">
+  <meta
+    name="description"
+    content="영한여행사 - 한국 인바운드, 대만 일본 태국 공항 픽업 샌딩, VIP 패스트트랙, 전용 차량, B2B 여행사 제휴 전문"
+  />
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="logo.png" alt="YOUNGHAN TRAVEL Logo" />
+      <div class="logo-text">
+        <span>YOUNGHAN TRAVEL</span>
+        <small>Korea & Asia Ground Service Partner</small>
+      </div>
+    </a>
 
-<header class="header">
+    <nav class="nav">
+      <a href="#about" data-i18n="navAbout">회사소개</a>
+      <a href="#ground" data-i18n="navGround">공항서비스</a>
+      <a href="#services" data-i18n="navServices">서비스</a>
+      <a href="#destinations" data-i18n="navDestinations">이용국가</a>
+      <a href="#partnership" data-i18n="navPartnership">제휴문의</a>
+      <a href="#contact" data-i18n="navContact">문의하기</a>
+    </nav>
 
-  <div class="logo">
-    YOUNGHAN TRAVEL
-  </div>
+    <div class="language">
+      <button type="button" onclick="setLanguage('ko')">KR</button>
+      <button type="button" onclick="setLanguage('en')">EN</button>
+      <button type="button" onclick="setLanguage('zh')">中文</button>
+      <button type="button" onclick="setLanguage('ja')">日本語</button>
+    </div>
+  </header>
 
-  <nav class="nav">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
 
-    <a href="#about" data-i18n="navAbout">회사소개</a>
+    <div class="hero-inner">
+      <div class="hero-content fade">
+        <p class="eyebrow" data-i18n="heroEyebrow">
+          KOREA INBOUND · TAIWAN · JAPAN · THAILAND
+        </p>
 
-    <a href="#services" data-i18n="navServices">서비스</a>
+        <h1>
+          YOUNGHAN<br />
+          TRAVEL
+        </h1>
 
-    <a href="#destinations" data-i18n="navDestinations">이용국가</a>
+        <h2 data-i18n="heroTitle">
+          대만·일본·태국 공항 픽업부터 VIP 패스트트랙까지
+        </h2>
 
-    <a href="#partnership" data-i18n="navPartnership">제휴문의</a>
+        <p class="hero-desc" data-i18n="heroDesc">
+          영한여행사는 한국 인바운드 운영 경험을 기반으로 대만·일본·태국의
+          공항 픽업, 샌딩, VIP 패스트트랙, 전용 차량, 현지 수배 서비스를 제공하는
+          B2B 여행 파트너입니다.
+        </p>
 
-    <a href="#contact" data-i18n="navContact">문의하기</a>
-
-    <div class="language-dropdown">
-
-      <button class="language-toggle" onclick="toggleLanguageMenu()">
-        🌐 <span id="current-lang">KO</span>
-      </button>
-
-      <div class="language-menu" id="language-menu">
-
-        <button onclick="setLanguage('ko')">
-          한국어
-        </button>
-
-        <button onclick="setLanguage('en')">
-          English
-        </button>
-
-        <button onclick="setLanguage('zh')">
-          繁體中文
-        </button>
-
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary" data-i18n="heroBtn1">차량/패스트트랙 문의</a>
+          <a href="#partnership" class="btn secondary" data-i18n="heroBtn2">B2B 제휴 문의</a>
+        </div>
       </div>
 
+      <div class="hero-stats fade">
+        <div class="stat-card">
+          <strong>KR</strong>
+          <span>Korea Inbound Package</span>
+        </div>
+
+        <div class="stat-card">
+          <strong>TW</strong>
+          <span>Pickup · Sanding · Fast Track</span>
+        </div>
+
+        <div class="stat-card">
+          <strong>JP</strong>
+          <span>Airport Transfer · Private Vehicle</span>
+        </div>
+
+        <div class="stat-card">
+          <strong>TH</strong>
+          <span>VIP Fast Track · Transfer</span>
+        </div>
+      </div>
     </div>
+  </section>
 
-  </nav>
+  <!-- ABOUT -->
+  <section id="about" class="section about fade">
+    <p class="section-label">ABOUT US</p>
 
-</header>
-
-
-<section class="hero">
-
-  <div class="hero-content">
-
-    <p class="eyebrow" data-i18n="heroEyebrow">
-      AIRPORT TRANSFER PARTNER
-    </p>
-
-    <h1>
-      YOUNGHAN TRAVEL
-    </h1>
-
-    <h2 data-i18n="heroSubtitle">
-      아시아 공항 픽업·샌딩 전문 파트너
+    <h2 class="section-title" data-i18n="aboutTitle">
+      영한여행사는 한국과 아시아를 연결하는 여행 전문 파트너입니다.
     </h2>
 
-    <p class="hero-text" data-i18n="heroText">
-      한국, 대만, 일본, 태국 지역의 공항 픽업 및 샌딩 서비스를 안정적으로 운영하는 여행 전문 파트너입니다.
+    <div class="section-grid">
+      <div class="about-left">
+        <p data-i18n="aboutText1">
+          영한여행사는 대만 인바운드 여행을 기반으로 성장한 대한민국 여행사입니다.
+        </p>
+
+        <p data-i18n="aboutText2">
+          현재는 한국 인바운드는 물론 대만·일본·태국 현지 공항 서비스와 차량 서비스를 함께 운영하며
+          여행사, OTA, 현지 파트너를 위한 실무형 서비스를 제공합니다.
+        </p>
+
+        <p data-i18n="aboutText3">
+          공항 픽업, 샌딩, VIP 패스트트랙, 전용 차량, 단체 이동, 맞춤형 투어, B2B 현지 수배까지
+          고객과 파트너에게 안정적인 여행 솔루션을 제공합니다.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h3>YOUNGHAN TRAVEL</h3>
+        <p>Korea · Taiwan · Japan · Thailand</p>
+
+        <div class="stats">
+          <div>
+            <strong>Airport Transfer</strong>
+            <span>Pickup · Sanding · Private Vehicle</span>
+          </div>
+
+          <div>
+            <strong>VIP Fast Track</strong>
+            <span>Arrival · Departure Support</span>
+          </div>
+
+          <div>
+            <strong>B2B Network</strong>
+            <span>Travel Agency · OTA · DMC Partner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GROUND SERVICE -->
+  <section id="ground" class="section ground fade">
+    <p class="section-label">SPECIALIZED GROUND SERVICE</p>
+
+    <h2 class="section-title" data-i18n="groundTitle">
+      공항 도착부터 이동까지, 현지 서비스를 한 번에 연결합니다.
+    </h2>
+
+    <p class="section-desc" data-i18n="groundDesc">
+      대만·일본·태국 주요 공항에서 픽업, 샌딩, VIP 패스트트랙, 전용 차량 서비스를 제공합니다.
+      개별 여행객부터 단체, 기업, 여행사 파트너까지 일정에 맞춰 유연하게 수배합니다.
     </p>
 
-    <div class="hero-buttons">
+    <div class="ground-grid">
+      <div class="ground-card">
+        <div class="ground-icon">🚐</div>
+        <h3 data-i18n="ground1Title">공항 픽업 & 샌딩</h3>
+        <p data-i18n="ground1Text">
+          도착 항공편에 맞춘 공항 미팅, 호텔 이동, 귀국 샌딩, 단체 이동 서비스를 제공합니다.
+        </p>
+      </div>
 
-      <a href="#contact"
-         class="btn primary"
-         data-i18n="heroQuote">
-         견적 문의하기
+      <div class="ground-card featured">
+        <div class="ground-icon">🛂</div>
+        <h3 data-i18n="ground2Title">VIP 공항 패스트트랙</h3>
+        <p data-i18n="ground2Text">
+          입국·출국 절차를 더 빠르고 편안하게 이용할 수 있도록 공항 패스트트랙 서비스를 연결합니다.
+        </p>
+      </div>
+
+      <div class="ground-card">
+        <div class="ground-icon">🚘</div>
+        <h3 data-i18n="ground3Title">전용 차량 & 편도 이동</h3>
+        <p data-i18n="ground3Text">
+          공항-호텔, 도시 간 이동, 단독 차량 투어, 기업 및 단체 이동까지 맞춤 차량을 수배합니다.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRAND STORY -->
+  <section class="brand-story section fade">
+    <div class="brand-story-grid">
+      <div class="brand-visual">
+        <img src="brand-visual.png" alt="Younghan Travel Brand" />
+      </div>
+
+      <div class="brand-text">
+        <p class="section-label">WHY YOUNGHAN TRAVEL</p>
+
+        <h2 data-i18n="whyTitle">
+          여행의 시작부터 끝까지,<br />
+          영한여행사가 함께합니다.
+        </h2>
+
+        <p data-i18n="whyDesc">
+          영한여행사는 단순히 여행 상품을 판매하는 회사가 아닙니다.
+          고객의 일정, 항공편, 이동 동선, 현지 상황까지 고려하여 가장 편리하고 안정적인 여행 서비스를 설계합니다.
+        </p>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h4>✈️ Inbound Travel</h4>
+            <p data-i18n="feature1">대한민국 맞춤형 패키지 여행 운영</p>
+          </div>
+
+          <div class="feature-card">
+            <h4>🚐 Airport Transfer</h4>
+            <p data-i18n="feature2">대만·일본·태국 공항 픽업 & 샌딩</p>
+          </div>
+
+          <div class="feature-card">
+            <h4>🛂 VIP Fast Track</h4>
+            <p data-i18n="feature3">빠르고 편안한 공항 입출국 지원</p>
+          </div>
+
+          <div class="feature-card">
+            <h4>🤝 B2B Partnership</h4>
+            <p data-i18n="feature4">여행사·OTA·DMC 현지 수배 협업</p>
+          </div>
+        </div>
+
+        <div class="brand-points">
+          <span>Airport Transfer</span>
+          <span>VIP Fast Track</span>
+          <span>Private Vehicle</span>
+          <span>Korea Inbound</span>
+          <span>Local Arrangement</span>
+          <span>B2B Partnership</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section dark fade">
+    <p class="section-label">OUR SERVICES</p>
+
+    <h2 class="section-title" data-i18n="servicesTitle">
+      주요 서비스
+    </h2>
+
+    <div class="card-grid six">
+      <div class="service-card">
+        <div class="service-icon">🧳</div>
+        <span>01</span>
+        <h3 data-i18n="service1Title">한국 인바운드 패키지</h3>
+        <p data-i18n="service1Text">
+          대만 시장을 중심으로 한국 맞춤형 패키지 여행을 기획·운영합니다.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🚐</div>
+        <span>02</span>
+        <h3 data-i18n="service2Title">공항 픽업 & 샌딩</h3>
+        <p data-i18n="service2Text">
+          대만·일본·태국 주요 공항에서 픽업, 샌딩, 호텔 이동 서비스를 제공합니다.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🛂</div>
+        <span>03</span>
+        <h3 data-i18n="service3Title">VIP 공항 패스트트랙</h3>
+        <p data-i18n="service3Text">
+          입국·출국 패스트트랙 서비스를 통해 더 빠르고 편안한 공항 이용을 지원합니다.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🚘</div>
+        <span>04</span>
+        <h3 data-i18n="service4Title">전용 차량 & 편도 이동</h3>
+        <p data-i18n="service4Text">
+          공항-호텔, 도시 간 이동, 단체 차량, 전용 차량 투어를 수배합니다.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🗺️</div>
+        <span>05</span>
+        <h3 data-i18n="service5Title">대만 한국어 택시투어</h3>
+        <p data-i18n="service5Text">
+          한국어 소통이 가능한 대만 택시투어와 맞춤형 현지 일정을 제공합니다.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🤝</div>
+        <span>06</span>
+        <h3 data-i18n="service6Title">B2B 현지 수배/제휴</h3>
+        <p data-i18n="service6Text">
+          여행사, OTA, DMC 파트너를 위한 현지 서비스, 상품 입점, 차량·투어 수배를 지원합니다.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS -->
+  <section id="destinations" class="section destinations fade">
+    <p class="section-label">DESTINATIONS</p>
+
+    <h2 class="section-title" data-i18n="destTitle">
+      이용국가
+    </h2>
+
+    <div class="destination-grid">
+      <div class="country-card korea">
+        <div class="country-top">
+          <span class="flag">🇰🇷</span>
+          <strong>KR</strong>
+        </div>
+
+        <h3>Korea</h3>
+        <p data-i18n="koreaText">
+          한국 인바운드 패키지, 단체 여행, 기업 여행
+        </p>
+
+        <div class="country-tags">
+          <span>Inbound</span>
+          <span>Package</span>
+          <span>Group</span>
+        </div>
+      </div>
+
+      <div class="country-card taiwan">
+        <div class="country-top">
+          <span class="flag">🇹🇼</span>
+          <strong>TW</strong>
+        </div>
+
+        <h3>Taiwan</h3>
+        <p data-i18n="taiwanText">
+          공항 픽업·샌딩, 한국어 택시투어, 공항 패스트트랙
+        </p>
+
+        <div class="country-tags">
+          <span>Transfer</span>
+          <span>Taxi Tour</span>
+          <span>Fast Track</span>
+        </div>
+      </div>
+
+      <div class="country-card japan">
+        <div class="country-top">
+          <span class="flag">🇯🇵</span>
+          <strong>JP</strong>
+        </div>
+
+        <h3>Japan</h3>
+        <p data-i18n="japanText">
+          공항 픽업·샌딩, 차량 편도 이동, 전용 차량 수배
+        </p>
+
+        <div class="country-tags">
+          <span>Transfer</span>
+          <span>Private Car</span>
+          <span>One-way</span>
+        </div>
+      </div>
+
+      <div class="country-card thailand">
+        <div class="country-top">
+          <span class="flag">🇹🇭</span>
+          <strong>TH</strong>
+        </div>
+
+        <h3>Thailand</h3>
+        <p data-i18n="thailandText">
+          공항 픽업·샌딩, VIP 패스트트랙, 차량 편도 이동
+        </p>
+
+        <div class="country-tags">
+          <span>Transfer</span>
+          <span>Fast Track</span>
+          <span>Vehicle</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERSHIP -->
+  <section id="partnership" class="section partnership fade">
+    <div class="partnership-inner">
+      <div class="partnership-content">
+        <p class="section-label">B2B PARTNERSHIP</p>
+
+        <h2 data-i18n="partnerTitle">
+          여행사, OTA, 현지 파트너와 함께 성장합니다.
+        </h2>
+
+        <p data-i18n="partnerText">
+          영한여행사는 인바운드 운영 경험과 아시아 주요 국가 서비스 네트워크를 바탕으로
+          공항 픽업, 샌딩, VIP 패스트트랙, 전용 차량, 현지 투어, 상품 입점 등 다양한 B2B 협업을 제안합니다.
+        </p>
+
+        <div class="partner-points">
+          <div>
+            <strong>01</strong>
+            <span data-i18n="partnerPoint1">상품 입점 및 판매 협업</span>
+          </div>
+
+          <div>
+            <strong>02</strong>
+            <span data-i18n="partnerPoint2">현지 수배 및 차량 서비스</span>
+          </div>
+
+          <div>
+            <strong>03</strong>
+            <span data-i18n="partnerPoint3">공항 픽업 · 샌딩 · 패스트트랙</span>
+          </div>
+
+          <div>
+            <strong>04</strong>
+            <span data-i18n="partnerPoint4">단체 · 기업 · 인센티브 여행</span>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn primary" data-i18n="partnerBtn">
+          제휴 문의하기
+        </a>
+      </div>
+
+      <div class="partnership-visual">
+        <div class="network-card main">
+          <span>YOUNGHAN</span>
+          <strong>TRAVEL NETWORK</strong>
+        </div>
+
+        <div class="network-grid">
+          <div>Travel Agency</div>
+          <div>OTA</div>
+          <div>DMC</div>
+          <div>Hotel</div>
+          <div>Transport</div>
+          <div>Local Tour</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact fade">
+    <p class="section-label">CONTACT</p>
+
+    <h2 class="section-title" data-i18n="contactTitle">
+      문의하기
+    </h2>
+
+    <p class="contact-desc" data-i18n="contactDesc">
+      차량 서비스, 공항 패스트트랙, 한국 인바운드, B2B 제휴 문의는 아래 채널을 통해 연락해 주세요.
+    </p>
+
+    <div class="quick-inquiry">
+      <a href="mailto:younghan768@naver.com?subject=차량/픽업 샌딩 견적 문의" class="quick-btn">
+        🚐 차량/픽업 견적
+      </a>
+      <a href="mailto:younghan768@naver.com?subject=공항 VIP 패스트트랙 문의" class="quick-btn">
+        🛂 패스트트랙 문의
+      </a>
+      <a href="mailto:younghan768@naver.com?subject=B2B 제휴 문의" class="quick-btn">
+        🤝 B2B 제휴 문의
+      </a>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card wide">
+        <div class="contact-icon">🏢</div>
+        <strong data-i18n="companyLabel">회사명</strong>
+        <span>주식회사 영한여행사</span>
+        <small>YOUNGHAN TRAVEL</small>
+      </div>
+
+      <div class="contact-card wide">
+        <div class="contact-icon">🧳</div>
+        <strong data-i18n="serviceLabel">전문 서비스</strong>
+        <span data-i18n="contactServices">
+          한국 인바운드 · 대만/일본/태국 공항 픽업 · 샌딩 · VIP 패스트트랙 · 전용 차량 · B2B 제휴
+        </span>
+      </div>
+
+      <a href="mailto:younghan768@naver.com" class="contact-card">
+        <div class="contact-icon">📧</div>
+        <strong data-i18n="emailLabel">이메일</strong>
+        <span>younghan768@naver.com</span>
       </a>
 
-      <a href="#partnership"
-         class="btn secondary"
-         data-i18n="heroB2B">
-         B2B 제휴 문의
+      <a href="tel:023389928" class="contact-card">
+        <div class="contact-icon">📞</div>
+        <strong data-i18n="phoneLabel">전화</strong>
+        <span>02-338-9928</span>
       </a>
 
+      <div class="contact-card">
+        <div class="contact-icon">💬</div>
+        <strong>카카오톡</strong>
+        <span>@younghantravel</span>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">📱</div>
+        <strong>LINE</strong>
+        <span data-i18n="comingSoon">준비중</span>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">🌐</div>
+        <strong>WhatsApp</strong>
+        <span data-i18n="comingSoon">준비중</span>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">💚</div>
+        <strong>WeChat</strong>
+        <span data-i18n="comingSoon">준비중</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="logo.png" alt="YOUNGHAN TRAVEL Logo" />
+
+          <div>
+            <h3>YOUNGHAN TRAVEL</h3>
+            <p>Korea & Asia Ground Service Partner</p>
+          </div>
+        </div>
+
+        <p class="footer-desc">
+          한국과 아시아를 연결하는 종합 여행 파트너,
+          주식회사 영한여행사입니다.
+        </p>
+
+        <div class="footer-quick">
+          <a href="#about">회사소개</a>
+          <a href="#ground">공항서비스</a>
+          <a href="#services">서비스</a>
+          <a href="#destinations">이용국가</a>
+          <a href="#partnership">제휴문의</a>
+          <a href="#contact">문의하기</a>
+        </div>
+      </div>
+
+      <div class="footer-info-wrap">
+        <h4>회사 정보</h4>
+
+        <div class="footer-info">
+          <span>회사명</span>
+          <span>주식회사 영한여행사</span>
+
+          <span>대표</span>
+          <span>LEE YUEH YING</span>
+
+          <span>사업자등록번호</span>
+          <span>768-87-00825</span>
+
+          <span>대표번호</span>
+          <span>02-338-9928</span>
+
+          <span>팩스</span>
+          <span>02-2661-5673</span>
+
+          <span>주소</span>
+          <span>서울특별시 중구 순화동 6-1 KC타워 7층 영한여행사</span>
+        </div>
+      </div>
+
+      <div class="footer-info-wrap">
+        <h4>인허가 보증보험</h4>
+
+        <div class="footer-info">
+          <span>가입금액</span>
+          <span>150,000,000원</span>
+        </div>
+
+        <p class="footer-notice">
+          YOUNGHAN TRAVEL은 고객에게 안전하고 신뢰할 수 있는 여행 서비스를 제공하기 위해
+          관련 법령을 준수하며 여행자 보호를 위한 보증보험에 가입되어 있습니다.
+        </p>
+
+        <div class="footer-contact">
+          <a href="mailto:younghan768@naver.com">Email</a>
+          <a href="tel:023389928">Call</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
     </div>
 
-  </div>
-
-</section>
-
-
-<section id="about" class="section">
-
-  <p class="section-label">
-    ABOUT US
-  </p>
-
-  <h2 data-i18n="aboutTitle">
-    영한여행사는 공항 이동 서비스를 전문으로 운영합니다.
-  </h2>
-
-  <p data-i18n="aboutText">
-    영한여행사는 여행사, OTA, 현지 파트너와 협업하여
-    한국·대만·일본·태국 지역의 공항 픽업,
-    공항 샌딩,
-    단체 차량 서비스를 제공합니다.
-  </p>
-
-</section>
-
-
-<section id="services" class="section light">
-
-  <p class="section-label">
-    SERVICES
-  </p>
-
-  <h2 data-i18n="servicesTitle">
-    서비스
-  </h2>
-
-  <div class="grid">
-
-    <div class="card">
-
-      <span>✈️</span>
-
-      <h3 data-i18n="service1Title">
-        공항 픽업
-      </h3>
-
-      <p data-i18n="service1Text">
-        공항 도착 후 기사 미팅 및 호텔 이동 서비스를 제공합니다.
-      </p>
-
+    <div class="footer-bottom">
+      <span>© 2026 YOUNGHAN TRAVEL. All Rights Reserved.</span>
+      <span>Korea · Taiwan · Japan · Thailand</span>
     </div>
+  </footer>
 
-    <div class="card">
-
-      <span>🚐</span>
-
-      <h3 data-i18n="service2Title">
-        공항 샌딩
-      </h3>
-
-      <p data-i18n="service2Text">
-        호텔에서 공항까지 편안한 출국 이동 서비스를 제공합니다.
-      </p>
-
-    </div>
-
-    <div class="card">
-
-      <span>👨‍👩‍👧</span>
-
-      <h3 data-i18n="service3Title">
-        단체 차량
-      </h3>
-
-      <p data-i18n="service3Text">
-        가족, 골프, 단체 여행객을 위한 차량 배정이 가능합니다.
-      </p>
-
-    </div>
-
-    <div class="card">
-
-      <span>🪧</span>
-
-      <h3 data-i18n="service4Title">
-        미팅보드
-      </h3>
-
-      <p data-i18n="service4Text">
-        고객명 또는 여행사명으로 공항 미팅보드 서비스를 제공합니다.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-<section id="destinations" class="section">
-
-  <p class="section-label">
-    DESTINATIONS
-  </p>
-
-  <h2>
-    이용국가
-  </h2>
-
-  <div class="grid">
-
-    <div class="country-card">
-      <h3>🇰🇷 Korea</h3>
-      <p>인천공항, 김포공항 및 전국 주요 도시 공항 이동 서비스</p>
-    </div>
-
-    <div class="country-card">
-      <h3>🇹🇼 Taiwan</h3>
-      <p>타오위안공항, 타이베이 및 주요 도시 차량 서비스</p>
-    </div>
-
-    <div class="country-card">
-      <h3>🇯🇵 Japan</h3>
-      <p>나리타, 하네다, 간사이, 후쿠오카 등 주요 공항 서비스</p>
-    </div>
-
-    <div class="country-card">
-      <h3>🇹🇭 Thailand</h3>
-      <p>방콕, 파타야, 푸켓 등 주요 관광지 차량 서비스</p>
-    </div>
-
-  </div>
-
-</section>
-
-
-<section id="partnership" class="section dark">
-
-  <p class="section-label blue">
-    B2B PARTNERSHIP
-  </p>
-
-  <h2>
-    여행사 · OTA · 랜드사 제휴를 환영합니다.
-  </h2>
-
-  <p>
-    공항 픽업·샌딩 상품 공급, 차량 예약 운영,
-    현지 파트너 연계 등 다양한 B2B 협업이 가능합니다.
-  </p>
-
-</section>
-
-
-<section id="contact" class="section contact">
-
-  <p class="section-label">
-    CONTACT
-  </p>
-
-  <h2>
-    문의하기
-  </h2>
-
-  <div class="contact-box">
-
-    <p>
-      <strong>회사명</strong>
-      영한여행사 / YOUNGHAN TRAVEL
-    </p>
-
-    <p>
-      <strong>서비스</strong>
-      공항 픽업 · 공항 샌딩 · 단체 차량 · B2B 제휴
-    </p>
-
-    <p>
-      <strong>이메일</strong>
-      your@email.com
-    </p>
-
-    <p>
-      <strong>카카오톡</strong>
-      @younghantravel
-    </p>
-
-    <p>
-      <strong>LINE</strong>
-      준비중
-    </p>
-
-    <p>
-      <strong>WhatsApp</strong>
-      준비중
-    </p>
-
-    <p>
-      <strong>WeChat</strong>
-      준비중
-    </p>
-
-  </div>
-
-</section>
-
-
-<footer>
-
-  <strong>
-    YOUNGHAN TRAVEL
-  </strong>
-
-  <p>
-    운영사 : 영한여행사
-  </p>
-
-  <p>
-    Airport Transfer Services in Korea, Taiwan, Japan and Thailand
-  </p>
-
-  <p style="margin-top:20px;font-size:14px;color:#94a3b8;">
-    © 2026 YOUNGHAN TRAVEL. All Rights Reserved.
-  </p>
-
-</footer>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
