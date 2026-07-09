@@ -370,6 +370,7 @@ const translations = {
   phoneLabel: "Phone",
   comingSoon: "Coming soon"
 },
+},
     zh: {
     navAboutNew: "公司介绍",
     navProofNew: "信任指标",
