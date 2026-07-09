@@ -186,144 +186,190 @@ const translations = {
   },
 
   en: {
-    navAboutNew: "About",
-    navProofNew: "Trust",
-    navWhyNew: "Strengths",
-    navServicesNew: "Services",
-    navOperationNew: "Operation",
-    navProcessNew: "Workflow",
-    navPartnershipNew: "Partnership",
-    navContactNew: "Contact",
+  navAboutNew: "About",
+  navProofNew: "Trust",
+  navWhyNew: "Strengths",
+  navServicesNew: "Services",
+  navOperationNew: "Operation",
+  navProcessNew: "Workflow",
+  navPartnershipNew: "Partnership",
+  navContactNew: "Contact",
 
-    heroEyebrowNew: "ASIA B2B GROUND SERVICE PARTNER",
-    heroHeadlineNew: "Asia B2B Travel Partner",
-    heroTitleNew:
-      "Based on Taiwan inbound operation experience,\nwe connect Japan and Thailand local services.",
-    heroDescNew:
-      "Younghan Travel is a B2B travel service company for travel agencies, OTAs, DMCs, and local partners. We arrange airport transfers, VIP fast track, private vehicles, taxi tours, and private vehicle tours according to each country’s operating conditions.",
-    heroBtnPrimaryNew: "B2B Consultation",
-    heroBtnSecondaryNew: "View Service Line-up",
-    heroProof1New: "Airport Service",
-    heroProof2New: "Private Vehicle",
-    heroProof3New: "VIP Fast Track",
-    heroProof4New: "Partner Arrangement",
-    heroFlow1New: "Partner Inquiry",
-    heroFlow2New: "Country Availability Check",
-    heroFlow3New: "Quote · Arrange · Operate",
+  heroEyebrowNew: "ASIA B2B GROUND SERVICE PARTNER",
+  heroHeadlineNew: "Asia B2B Travel Partner",
+  heroTitleNew:
+    "Based on Taiwan inbound operation experience,\nwe connect Japan and Thailand local services.",
+  heroDescNew:
+    "Younghan Travel is a B2B travel service company for travel agencies, OTAs, DMCs, and local partners. We arrange airport transfers, VIP fast track, private vehicles, taxi tours, and private vehicle tours according to each country’s operating conditions.",
+  heroBtnPrimaryNew: "B2B Consultation",
+  heroBtnSecondaryNew: "View Service Line-up",
+  heroProof1New: "Airport Service",
+  heroProof2New: "Private Vehicle",
+  heroProof3New: "VIP Fast Track",
+  heroProof4New: "Partner Arrangement",
+  heroFlow1New: "Partner Inquiry",
+  heroFlow2New: "Country Availability Check",
+  heroFlow3New: "Quote · Arrange · Operate",
 
-    trust1TitleNew: "Operating Markets",
-    trust1TextNew: "Korea · Taiwan · Japan · Thailand",
-    trust2TitleNew: "Service Modules",
-    trust2TextNew: "Airport · Vehicle · Tour · Fast Track",
-    trust3TitleNew: "Partner-focused",
-    trust3TextNew: "Agency · OTA · DMC Cooperation",
-    trust4TitleNew: "Practical Support",
-    trust4TextNew: "Quote · Itinerary · Local Arrangement",
+  trust1TitleNew: "Operating Markets",
+  trust1TextNew: "Korea · Taiwan · Japan · Thailand",
+  trust2TitleNew: "Service Modules",
+  trust2TextNew: "Airport · Vehicle · Tour · Fast Track",
+  trust3TitleNew: "Partner-focused Operation",
+  trust3TextNew: "Travel Agency · OTA · DMC Cooperation",
+  trust4TitleNew: "Practical Consultation",
+  trust4TextNew: "Quote · Itinerary · Local Arrangement",
 
-    aboutTitleNew:
-      "Younghan Travel started from Korea inbound operations based on the Taiwan market and is expanding into local services across Asia.",
-    aboutText1New:
-      "Younghan Travel is a specialized travel company that has grown through Korea inbound operations centered on the Taiwan market. We have built practical operating experience by considering itineraries, flights, vehicles, and local routes.",
-    aboutText2New:
-      "Today, we are expanding our inbound operation capability into local services in Taiwan, Japan, and Thailand. We provide airport pickup and drop-off, VIP fast track, private vehicles, one-way transfers, taxi tours, and private vehicle tours that travel agencies and OTAs can sell and operate directly.",
-    aboutText3New:
-      "Our goal is to help partners reduce the burden of local operations and provide travelers with a more reliable travel experience.",
+  aboutTitleNew:
+    "Younghan Travel started from Korea inbound operations based on the Taiwan market and is expanding into local services across Asia.",
+  aboutText1New:
+    "Younghan Travel is a specialized travel company that has grown through Korea inbound operations centered on the Taiwan market. We have built practical operating experience by considering itineraries, flights, vehicles, and local routes.",
+  aboutText2New:
+    "Today, we are expanding our inbound operation capability into local services in Taiwan, Japan, and Thailand. We provide airport pickup and drop-off, VIP fast track, private vehicles, one-way transfers, taxi tours, and private vehicle tours that travel agencies and OTAs can sell and operate directly.",
+  aboutText3New:
+    "Our goal is to help partners reduce the burden of local operations and provide travelers with a more reliable travel experience.",
+  aboutStep1TitleNew: "Taiwan Market",
+  aboutStep1TextNew: "Korea inbound operation experience based on the Taiwan market",
+  aboutStep2TitleNew: "Asia Service Network",
+  aboutStep2TextNew: "Expansion of airport and vehicle services in Taiwan, Japan, and Thailand",
+  aboutStep3TitleNew: "B2B Partnership",
+  aboutStep3TextNew: "Arrangement cooperation for travel agencies, OTAs, and local partners",
+  aboutCard1New: "Korea inbound operation experience based on the Taiwan market",
+  aboutCard2New: "Taiwan · Japan · Thailand local services",
+  aboutCard3New: "Travel Agency · OTA · DMC · Local Partner",
 
-    proofTitleNew: "We show the trust factors partners need first.",
-    proofDescNew:
-      "For B2B partners, what matters is operational availability, fast confirmation, and clear responsibility. Younghan Travel clearly presents company information, service coverage, contact channels, and operation process.",
-    proof1TitleNew: "Company Information",
-    proof1TextNew:
-      "We clearly provide essential company details for partner review, including company name, phone number, registration number, and address.",
-    proof2TitleNew: "Insurance Information",
-    proof2TextNew:
-      "We comply with relevant regulations and provide insurance information for safer and more reliable transactions.",
-    proof3TitleNew: "Clear Service Coverage",
-    proof3TextNew:
-      "We separate Taiwan, Japan, Thailand, and Korea inbound service coverage so partners can build sales structures quickly.",
-    proof4TitleNew: "B2B Contact Channels",
-    proof4TextNew:
-      "We provide practical contact points such as email, phone, and KakaoTalk for faster business communication.",
+  proofTitleNew: "We show the trust factors partners need first.",
+  proofDescNew:
+    "For B2B partners, what matters is operational availability, fast confirmation, and clear responsibility. Younghan Travel clearly presents company information, service coverage, contact channels, and operation process.",
+  proof1TitleNew: "Company Information",
+  proof1TextNew:
+    "We clearly provide essential company details for partner review, including company name, phone number, business registration number, and address.",
+  proof2TitleNew: "Insurance Information",
+  proof2TextNew:
+    "We comply with relevant regulations and provide insurance information for safer and more reliable transactions.",
+  proof3TitleNew: "Clear Service Coverage",
+  proof3TextNew:
+    "We separate Taiwan, Japan, Thailand, and Korea inbound service coverage so partners can build sales structures quickly.",
+  proof4TitleNew: "B2B Contact Channels",
+  proof4TextNew:
+    "We provide practical contact points such as email, phone, and KakaoTalk for faster business communication.",
 
-    whyTitleNew: "Why partners choose Younghan Travel",
-    whyDescNew:
-      "In B2B travel services, what matters is not only a price list but also accurate arrangement, quick confirmation, and local operational response. Younghan Travel clearly defines service coverage by country and provides services in a format that partners can sell with confidence.",
-    whyPoint1New: "Korea inbound operation experience based on the Taiwan market",
-    whyPoint2New: "Clear service coverage for Taiwan, Japan, and Thailand",
-    whyPoint3New: "Airport pickup, drop-off, and VIP fast track connection",
-    whyPoint4New: "Private tours, private vehicles, and one-way transfers",
-    whyPoint5New: "Cooperation designed for agency and OTA sales structures",
-    whyPoint6New: "Quotation, itinerary, and local arrangement support",
+  visualNoteTitleNew:
+    "We connect local services by country to match each partner’s sales structure.",
+  whyTitleNew: "Why partners choose Younghan Travel",
+  whyDescNew:
+    "In B2B travel services, what matters is not only a price list but also accurate arrangement, quick confirmation, and local operational response. Younghan Travel clearly defines service coverage by country and provides services in a format that partners can sell with confidence.",
+  whyPoint1New: "Korea inbound operation experience based on the Taiwan market",
+  whyPoint2New: "Clear service coverage for Taiwan, Japan, and Thailand",
+  whyPoint3New: "Airport pickup, drop-off, and VIP fast track connection",
+  whyPoint4New: "Private vehicle tours, private vehicles, and one-way transfers",
+  whyPoint5New: "Cooperation designed for travel agency and OTA sales structures",
+  whyPoint6New: "Quotation, itinerary, and local arrangement support",
 
-    servicesTitleNew: "Clear country-based local services for partner sales.",
-    servicesDescNew:
-      "We organize our core services by country so partners can understand and sell them easily. Taiwan focuses on taxi tours and airport services, Japan focuses on private vehicle tours and transfers, and Thailand focuses on VIP fast track and airport transfers.",
-taiwanServiceTitleNew: "Taiwan Local Services",
-taiwanServiceDescNew:
-  "Taiwan is Younghan Travel's core operating market. We provide partner-ready services focused on Korean-speaking taxi tours and airport transfers.",
-taiwanService1New: "Airport Pickup",
-taiwanService2New: "Airport Drop-off",
-taiwanService3New: "Korean-speaking Taxi Tour",
-taiwanService4New: "VIP Airport Fast Track",
+  servicesTitleNew: "Clear country-based local services for partner sales.",
+  servicesDescNew:
+    "We organize our core services by country so partners can understand and sell them easily. Taiwan focuses on taxi tours and airport services, Japan focuses on private vehicle tours and transfers, and Thailand focuses on VIP fast track and airport transfers.",
 
-japanServiceTitleNew: "Japan Local Services",
-japanServiceDescNew:
-  "Japan services focus on private vehicle tours, airport transfers, and one-way transportation for families, business travelers, and private itineraries.",
-japanService1New: "Private Vehicle Tour",
-japanService2New: "Airport Pickup",
-japanService3New: "Airport Drop-off",
-japanService4New: "One-way Transfer",
+  taiwanServiceTitleNew: "Taiwan Local Services",
+  taiwanServiceDescNew:
+    "Taiwan is Younghan Travel’s core operating market. We provide partner-ready services focused on Korean-speaking taxi tours and airport services.",
+  taiwanService1New: "Airport Pickup",
+  taiwanService2New: "Airport Drop-off",
+  taiwanService3New: "Korean-speaking Taxi Tour",
+  taiwanService4New: "VIP Airport Fast Track",
 
-thailandServiceTitleNew: "Thailand Local Services",
-thailandServiceDescNew:
-  "Thailand services include VIP airport fast track, airport transfers, and one-way transportation from the airport to hotels.",
-thailandService1New: "VIP Airport Fast Track",
-thailandService2New: "Airport Pickup",
-thailandService3New: "Airport Drop-off",
-thailandService4New: "One-way Transfer",
+  japanServiceTitleNew: "Japan Local Services",
+  japanServiceDescNew:
+    "Japan services focus on private vehicle tours, airport transfers, and one-way vehicle arrangements for family trips, corporate travel, and private itineraries.",
+  japanService1New: "Private Vehicle Tour",
+  japanService2New: "Airport Pickup",
+  japanService3New: "Airport Drop-off",
+  japanService4New: "One-way Vehicle Transfer",
 
-koreaServiceTitleNew: "Korea Inbound",
-koreaServiceDescNew:
-  "Based on our Korea inbound experience from the Taiwan market, we support group tours, corporate travel, and customized itineraries.",
-koreaService1New: "Korea Inbound Package",
-koreaService2New: "Group Travel",
-koreaService3New: "Corporate & Incentive Travel",
-koreaService4New: "Customized Itinerary",
-    operationTitleNew:
-      "What matters more than a beautiful product is reliable on-site operation.",
-    operationDescNew:
-      "Younghan Travel checks both partner-friendly sales structures and executable local conditions. We arrange services based on flights, passenger count, vehicle conditions, meeting points, and availability.",
+  thailandServiceTitleNew: "Thailand Local Services",
+  thailandServiceDescNew:
+    "Thailand services focus on VIP fast track, airport pickup and drop-off, and one-way vehicle transfers from arrival to hotel.",
+  thailandService1New: "VIP Airport Fast Track",
+  thailandService2New: "Airport Pickup",
+  thailandService3New: "Airport Drop-off",
+  thailandService4New: "One-way Vehicle Transfer",
 
-    processTitleNew: "From inquiry to local arrangement, we work by partner standards.",
-    processDescNew:
-      "What travel agencies and OTAs need most is fast confirmation and stable local connection. Younghan Travel arranges services based on country, passenger count, itinerary, flight, and vehicle requirements.",
+  koreaServiceTitleNew: "Korea Inbound",
+  koreaServiceDescNew:
+    "Based on our Korea inbound operation experience from the Taiwan market, we support group tours, corporate travel, and customized itineraries.",
+  koreaService1New: "Korea Inbound Package",
+  koreaService2New: "Group Travel",
+  koreaService3New: "Corporate & Incentive Travel",
+  koreaService4New: "Customized Itinerary Operation",
 
-    partnerTitleNew:
-      "A reliable operating partner for travel agencies, OTAs, and local partners.",
-    partnerTextNew:
-      "Younghan Travel considers both partner sales and local operations. We do not simply connect services; we clarify service scope and operation conditions by country so partners can propose products to customers with confidence.",
-    partnerBtnNew: "Partnership Inquiry",
+  operationTitleNew:
+    "What matters more than a beautiful product is reliable on-site operation.",
+  operationDescNew:
+    "Younghan Travel checks both partner-friendly sales structures and executable local conditions. We arrange services based on flights, passenger count, vehicle conditions, meeting points, and availability.",
+  operation1TitleNew: "Flight & Itinerary Check",
+  operation1TextNew:
+    "We check service availability based on arrival and departure flights, dates, times, and hotel locations.",
+  operation2TitleNew: "Vehicle & Passenger Check",
+  operation2TextNew:
+    "We confirm passenger count, luggage, travel distance, and vehicle type to arrange the most suitable vehicle.",
+  operation3TitleNew: "Meeting Point Guide",
+  operation3TextNew:
+    "We clearly provide meeting locations and service conditions for airports, hotels, and local destinations.",
+  operation4TitleNew: "Local Operation Check",
+  operation4TextNew:
+    "We check required details before and after service operation and communicate based on practical operation standards.",
 
-    contactTitleNew: "Service Quotation & Partnership Inquiry",
-    contactDescNew:
-      "For Taiwan, Japan, and Thailand local service quotations or partnership inquiries with agencies, OTAs, and local partners, please contact us through the channels below.",
-    quoteGuideTitleNew: "For a faster quote, please send the details below.",
-    quoteGuide1New: "Country / City / Service Type",
-    quoteGuide2New: "Date and Flight Information",
-    quoteGuide3New: "Passenger Count and Luggage",
-    quoteGuide4New: "Hotel Name or Route",
+  processTitleNew: "From inquiry to local arrangement, we work by partner standards.",
+  processDescNew:
+    "What travel agencies and OTAs need most is fast confirmation and stable local connection. Younghan Travel arranges services based on country, passenger count, itinerary, flight, and vehicle requirements.",
+  process1TitleNew: "Service Inquiry",
+  process1TextNew:
+    "We review inquiries based on country, itinerary, flight, passenger count, and requested service.",
+  process2TitleNew: "Availability Check",
+  process2TextNew:
+    "We check local service availability, vehicle conditions, and fast track requirements.",
+  process3TitleNew: "Quote & Arrangement",
+  process3TextNew:
+    "We provide quotations and operation details according to each partner’s sales method and proceed with local arrangements.",
+  process4TitleNew: "Local Operation Support",
+  process4TextNew:
+    "We support necessary operation checks during customer arrival, transfer, and service progress.",
 
-    footerCtaTitleNew: "Need local services or B2B partnership consultation?",
-    footerCtaBtnNew: "Contact Us",
-    footerDescNew:
-      "A B2B travel partner connecting Taiwan, Japan, and Thailand local services based on Korea inbound operation experience from the Taiwan market.",
+  partnerTitleNew:
+    "A reliable operating partner for travel agencies, OTAs, and local partners.",
+  partnerTextNew:
+    "Younghan Travel considers both partner sales and local operations. We do not simply connect services; we clarify service scope and operation conditions by country so partners can propose products to customers with confidence.",
+  partnerPoint1New: "Local service supply by country",
+  partnerPoint2New: "Travel agency and OTA product cooperation",
+  partnerPoint3New: "Airport pickup, drop-off, and fast track arrangement",
+  partnerPoint4New: "Private vehicle, taxi tour, and one-way transfer operation",
+  partnerKit1New: "Service descriptions for product listing",
+  partnerKit2New: "Country-specific availability check",
+  partnerKit3New: "Quotation and arrangement consultation support",
+  partnerBtnNew: "Partnership Inquiry",
 
-    companyLabel: "Company",
-    serviceLabel: "Specialized Services",
-    emailLabel: "Email",
-    phoneLabel: "Phone",
-    comingSoon: "Coming soon"
-  },
+  contactTitleNew: "Service Quotation & Partnership Inquiry",
+  contactDescNew:
+    "For Taiwan, Japan, and Thailand local service quotations or partnership inquiries with agencies, OTAs, and local partners, please contact us through the channels below.",
+  quoteGuideTitleNew: "For a faster quote, please send the details below.",
+  quoteGuide1New: "Country / City / Service Type",
+  quoteGuide2New: "Date and Flight Information",
+  quoteGuide3New: "Passenger Count and Luggage",
+  quoteGuide4New: "Hotel Name or Route",
+  contactServicesNew:
+    "Taiwan taxi tour · Taiwan/Japan/Thailand airport pickup · drop-off · VIP fast track · private vehicle · one-way transfer · B2B partnership",
+
+  footerCtaTitleNew: "Need local services or B2B partnership consultation?",
+  footerCtaBtnNew: "Contact Us",
+  footerDescNew:
+    "A B2B travel partner connecting Taiwan, Japan, and Thailand local services based on Korea inbound operation experience from the Taiwan market.",
+
+  companyLabel: "Company",
+  serviceLabel: "Specialized Services",
+  emailLabel: "Email",
+  phoneLabel: "Phone",
+  comingSoon: "Coming soon"
+},
     zh: {
     navAboutNew: "公司介绍",
     navProofNew: "信任指标",
