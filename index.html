@@ -55,12 +55,41 @@
       <a href="#contact" data-i18n="navContactNew">문의하기</a>
     </nav>
 
-    <div class="language" aria-label="Language selector">
-      <button type="button" onclick="setLanguage('ko')">KR</button>
-      <button type="button" onclick="setLanguage('en')">EN</button>
-      <button type="button" onclick="setLanguage('zh')">中文</button>
-      <button type="button" onclick="setLanguage('ja')">日本語</button>
-    </div>
+    <div class="language language-dropdown" aria-label="Language selector">
+  <button
+    type="button"
+    class="language-toggle"
+    id="languageToggle"
+    aria-haspopup="true"
+    aria-expanded="false"
+  >
+    <span class="language-globe" aria-hidden="true">🌐</span>
+    <span class="language-current" data-current-lang>KR</span>
+    <span class="language-arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div class="language-menu" role="menu" aria-label="Select language">
+    <button type="button" data-lang="ko" role="menuitem">
+      <span>KR</span>
+      <strong>한국어</strong>
+    </button>
+
+    <button type="button" data-lang="en" role="menuitem">
+      <span>EN</span>
+      <strong>English</strong>
+    </button>
+
+    <button type="button" data-lang="zh" role="menuitem">
+      <span>中文</span>
+      <strong>繁體中文</strong>
+    </button>
+
+    <button type="button" data-lang="ja" role="menuitem">
+      <span>日本語</span>
+      <strong>日本語</strong>
+    </button>
+  </div>
+</div>
   </header>
 
   <!-- HERO -->
@@ -150,13 +179,13 @@
   <section class="trust-strip fade" aria-label="Younghan Travel trust indicators">
     <div class="trust-grid">
       <div class="trust-item">
-        <strong>4</strong>
+        <strong class="count-up" data-count="4" data-suffix="">0</strong>
         <span data-i18n="trust1TitleNew">운영 시장</span>
         <p data-i18n="trust1TextNew">한국 · 대만 · 일본 · 태국</p>
       </div>
 
       <div class="trust-item">
-        <strong>12+</strong>
+        <strong class="count-up" data-count="12" data-suffix="+">0</strong>
         <span data-i18n="trust2TitleNew">서비스 모듈</span>
         <p data-i18n="trust2TextNew">공항 · 차량 · 투어 · 패스트트랙</p>
       </div>
@@ -313,7 +342,59 @@
       <span>Local Operator</span>
     </div>
   </section>
+<!-- FOCUSED NETWORK -->
+<section class="network-focus-section fade" aria-label="Younghan Travel focused service network">
+  <div class="network-focus-inner">
+    <div class="network-focus-copy">
+      <p class="section-label">FOCUSED ASIA NETWORK</p>
 
+      <h2>
+        한국 · 대만 · 일본 · 태국,
+        지금 운영하는 국가에 집중합니다.
+      </h2>
+
+      <p>
+        영한여행사는 넓게만 보이는 서비스보다 실제 수배와 운영이 가능한 국가를 중심으로
+        파트너가 믿고 판매할 수 있는 B2B 현지 서비스를 제공합니다.
+      </p>
+
+      <div class="network-focus-tags">
+        <span>Korea Inbound</span>
+        <span>Taiwan Core Market</span>
+        <span>Japan Vehicle Service</span>
+        <span>Thailand Airport Service</span>
+      </div>
+    </div>
+
+    <div class="asia-map-card" aria-hidden="true">
+      <div class="map-line map-line-1"></div>
+      <div class="map-line map-line-2"></div>
+      <div class="map-line map-line-3"></div>
+
+      <div class="map-point korea">
+        <span>KR</span>
+        <strong>Korea</strong>
+      </div>
+
+      <div class="map-point japan">
+        <span>JP</span>
+        <strong>Japan</strong>
+      </div>
+
+      <div class="map-point taiwan">
+        <span>TW</span>
+        <strong>Taiwan</strong>
+      </div>
+
+      <div class="map-point thailand">
+        <span>TH</span>
+        <strong>Thailand</strong>
+      </div>
+
+      <div class="map-plane">✈</div>
+    </div>
+  </div>
+</section>
   <!-- WHY YOUNGHAN -->
   <section id="why" class="brand-story section fade">
     <div class="brand-story-grid">
@@ -732,57 +813,112 @@
     </div>
 
     <div class="contact-grid">
-      <div class="contact-card wide">
-        <div class="contact-icon">01</div>
-        <strong data-i18n="companyLabel">회사명</strong>
-        <span>주식회사 영한여행사</span>
-        <small>YOUNGHAN TRAVEL</small>
-      </div>
-
-      <div class="contact-card wide">
-        <div class="contact-icon">02</div>
-        <strong data-i18n="serviceLabel">전문 서비스</strong>
-        <span data-i18n="contactServicesNew">
-          대만 택시투어 · 대만/일본/태국 공항 픽업 · 샌딩 · VIP 패스트트랙 · 전용 차량 · 편도 이동 · B2B 제휴
-        </span>
-      </div>
-
-      <a href="mailto:younghan768@naver.com" class="contact-card">
-        <div class="contact-icon">03</div>
-        <strong data-i18n="emailLabel">이메일</strong>
-        <span>younghan768@naver.com</span>
-      </a>
-
-      <a href="tel:023389928" class="contact-card">
-        <div class="contact-icon">04</div>
-        <strong data-i18n="phoneLabel">전화</strong>
-        <span>02-338-9928</span>
-      </a>
-
-      <div class="contact-card">
-        <div class="contact-icon">05</div>
-        <strong>카카오톡</strong>
-        <span>@younghantravel</span>
-      </div>
-
-      <div class="contact-card">
-        <div class="contact-icon">06</div>
-        <strong>LINE</strong>
-        <span data-i18n="comingSoon">준비중</span>
-      </div>
-
-      <div class="contact-card">
-        <div class="contact-icon">07</div>
-        <strong>WhatsApp</strong>
-        <span data-i18n="comingSoon">준비중</span>
-      </div>
-
-      <div class="contact-card">
-        <div class="contact-icon">08</div>
-        <strong>WeChat</strong>
-        <span data-i18n="comingSoon">준비중</span>
-      </div>
+  <div class="contact-card wide contact-company-card">
+    <div class="contact-card-top">
+      <div class="contact-icon brand-icon">YH</div>
+      <span class="contact-badge">OFFICIAL COMPANY</span>
     </div>
+
+    <strong data-i18n="companyLabel">회사명</strong>
+    <span>주식회사 영한여행사</span>
+    <small>YOUNGHAN TRAVEL · B2B Korea & Asia Travel Partner</small>
+  </div>
+
+  <div class="contact-card wide contact-service-card">
+    <div class="contact-card-top">
+      <div class="contact-icon service-icon">B2B</div>
+      <span class="contact-badge">GROUND SERVICE</span>
+    </div>
+
+    <strong data-i18n="serviceLabel">전문 서비스</strong>
+    <span data-i18n="contactServicesNew">
+      대만 택시투어 · 대만/일본/태국 공항 픽업 · 샌딩 · VIP 패스트트랙 · 전용 차량 · 편도 이동 · B2B 제휴
+    </span>
+  </div>
+
+  <a href="mailto:younghan768@naver.com" class="contact-card channel-card email-card">
+    <div class="channel-top">
+      <div class="channel-logo email-logo" aria-hidden="true">
+        <svg viewBox="0 0 64 64">
+          <rect x="9" y="15" width="46" height="34" rx="8"></rect>
+          <path d="M12 19l20 16 20-16"></path>
+        </svg>
+      </div>
+      <span class="channel-status">Direct</span>
+    </div>
+
+    <strong data-i18n="emailLabel">이메일</strong>
+    <span>younghan768@naver.com</span>
+    <small class="contact-action">메일 보내기 →</small>
+  </a>
+
+  <a href="tel:023389928" class="contact-card channel-card phone-card">
+    <div class="channel-top">
+      <div class="channel-logo phone-logo" aria-hidden="true">
+        <svg viewBox="0 0 64 64">
+          <path d="M22 13l7 14-6 5c4 8 9 13 17 17l5-6 14 7c-1 6-6 10-12 10-22-1-42-21-43-43 0-6 4-11 10-12z"></path>
+        </svg>
+      </div>
+      <span class="channel-status">Office</span>
+    </div>
+
+    <strong data-i18n="phoneLabel">전화</strong>
+    <span>02-338-9928</span>
+    <small class="contact-action">전화 연결 →</small>
+  </a>
+
+  <div class="contact-card channel-card kakao-card">
+    <div class="channel-top">
+      <div class="channel-logo kakao-logo" aria-hidden="true">
+        <span>TALK</span>
+      </div>
+      <span class="channel-status">Main</span>
+    </div>
+
+    <strong>카카오톡</strong>
+    <span>@younghantravel</span>
+    <small class="contact-action">상담 채널</small>
+  </div>
+
+  <div class="contact-card channel-card line-card">
+    <div class="channel-top">
+      <div class="channel-logo line-logo" aria-hidden="true">
+        <span>LINE</span>
+      </div>
+      <span class="channel-status status-ready">Ready</span>
+    </div>
+
+    <strong>LINE</strong>
+    <span data-i18n="comingSoon">준비중</span>
+    <small class="contact-action">오픈 예정</small>
+  </div>
+
+  <div class="contact-card channel-card whatsapp-card">
+    <div class="channel-top">
+      <div class="channel-logo whatsapp-logo" aria-hidden="true">
+        <span>WA</span>
+      </div>
+      <span class="channel-status status-ready">Ready</span>
+    </div>
+
+    <strong>WhatsApp</strong>
+    <span data-i18n="comingSoon">준비중</span>
+    <small class="contact-action">오픈 예정</small>
+  </div>
+
+  <div class="contact-card channel-card wechat-card">
+    <div class="channel-top">
+      <div class="channel-logo wechat-logo" aria-hidden="true">
+        <span>WC</span>
+      </div>
+      <span class="channel-status status-ready">Ready</span>
+    </div>
+
+    <strong>WeChat</strong>
+    <span data-i18n="comingSoon">준비중</span>
+    <small class="contact-action">오픈 예정</small>
+  </div>
+</div>
   </section>
 
   <!-- FOOTER CTA -->
