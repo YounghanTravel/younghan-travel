@@ -11,6 +11,9 @@
   --blue-2: #1d4ed8;
   --sky: #60a5fa;
   --sky-soft: #dbeafe;
+  --accent: #f59e0b;
+  --accent-soft: #fff7ed;
+  --teal: #0f766e;
   --white: #ffffff;
   --text: #071224;
   --text-soft: #273449;
@@ -236,8 +239,8 @@ button {
   color: var(--white);
   background-image:
     linear-gradient(90deg, rgba(6, 18, 37, 0.98) 0%, rgba(6, 18, 37, 0.86) 47%, rgba(6, 18, 37, 0.34) 100%),
-    url("hero-bg.jpg"),
-    url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1800&q=80");
+    url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1800&q=80"),
+    url("brand-visual.png");
   background-size: cover, cover, cover;
   background-position: center, center, center;
   background-repeat: no-repeat;
@@ -2856,5 +2859,254 @@ a.contact-card:hover,
   .map-line::after,
   .map-plane {
     animation: none !important;
+  }
+}
+
+/* =========================================
+   DESIGN REFINEMENT - visual clarity pass
+========================================= */
+.header {
+  min-height: 78px;
+  padding: 8px 6%;
+  background:
+    linear-gradient(180deg, rgba(6, 18, 37, 0.97), rgba(6, 18, 37, 0.92));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logo img {
+  width: 58px;
+  height: 58px;
+}
+
+.header.scrolled .logo img {
+  width: 52px;
+  height: 52px;
+}
+
+.logo-text span {
+  font-size: 20px;
+}
+
+.nav {
+  gap: clamp(12px, 1.45vw, 20px);
+}
+
+.nav a {
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.hero {
+  min-height: calc(100vh - 78px);
+  padding: 96px 6% 132px;
+  background-position: center, center, center;
+}
+
+.hero-overlay {
+  background:
+    linear-gradient(90deg, rgba(6, 18, 37, 0.18), rgba(6, 18, 37, 0.02) 58%),
+    linear-gradient(180deg, rgba(6, 18, 37, 0) 68%, rgba(6, 18, 37, 0.74));
+}
+
+.hero::before {
+  display: none;
+}
+
+.hero .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.hero .eyebrow::before {
+  content: "";
+  width: 34px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.hero-brand-name {
+  max-width: 700px;
+  text-wrap: balance;
+}
+
+.hero h1,
+.hero h2,
+.section-title,
+.section h2 {
+  text-wrap: balance;
+}
+
+.hero-desc {
+  max-width: 700px;
+}
+
+.btn {
+  border-radius: 12px;
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8 58%, #0f766e);
+}
+
+.btn.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.36);
+}
+
+.hero-proof-list span {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero-command-card {
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.08));
+  border-color: rgba(255, 255, 255, 0.24);
+  box-shadow:
+    0 30px 90px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+.command-card-top,
+.command-highlight,
+.command-flow div {
+  border-radius: 16px;
+}
+
+.command-card-top span,
+.command-flow span {
+  color: #fde68a;
+}
+
+.command-flow span {
+  background: rgba(245, 158, 11, 0.15);
+}
+
+.trust-strip {
+  margin-top: -60px;
+}
+
+.trust-grid {
+  border-radius: 22px;
+  box-shadow: 0 28px 80px rgba(15, 23, 42, 0.16);
+}
+
+.trust-item {
+  position: relative;
+  padding-top: 34px;
+}
+
+.trust-item::before {
+  content: "";
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  top: 0;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--blue), var(--teal), var(--accent));
+}
+
+.section {
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+.section-label {
+  color: var(--teal);
+  letter-spacing: 2.6px;
+}
+
+.proof-card,
+.feature-card,
+.operation-card,
+.process-card,
+.country-service-card,
+.contact-card,
+.about-timeline div {
+  border-radius: 16px;
+}
+
+.proof-card,
+.feature-card,
+.operation-card,
+.process-card,
+.contact-card {
+  box-shadow: 0 14px 42px rgba(15, 23, 42, 0.08);
+}
+
+.proof-card:hover,
+.feature-card:hover,
+.operation-card:hover,
+.process-card:hover,
+.country-service-card:hover,
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.brand-story,
+.operation-section {
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+.network-focus-section,
+.proof-section,
+.process {
+  background:
+    linear-gradient(180deg, #f1f6ff 0%, #ffffff 100%);
+}
+
+.visual-note-card {
+  border-left: 4px solid var(--accent);
+}
+
+.country-service-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.04));
+}
+
+.contact-badge,
+.channel-status {
+  border-radius: 999px;
+}
+
+@media (max-width: 1240px) {
+  .nav {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 920px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 78px;
+  }
+}
+
+@media (max-width: 640px) {
+  .logo-text span {
+    font-size: 17px;
+  }
+
+  .logo-text small {
+    max-width: 190px;
+    white-space: normal;
+  }
+
+  .hero {
+    padding-bottom: 104px;
+  }
+
+  .trust-strip {
+    margin-top: -42px;
   }
 }
