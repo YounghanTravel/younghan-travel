@@ -1,25 +1,34 @@
 const translations = {
   ko: {
     navAboutNew: "회사소개",
+    navProofNew: "신뢰지표",
     navWhyNew: "운영강점",
     navServicesNew: "국가별 서비스",
+    navOperationNew: "운영체계",
     navProcessNew: "협업방식",
     navPartnershipNew: "제휴문의",
     navContactNew: "문의하기",
 
-    heroEyebrowNew: "TAIWAN INBOUND SPECIALIST · ASIA B2B GROUND SERVICE",
-    heroHeadlineNew: "한국과 아시아를 연결하는\nB2B 여행 서비스 파트너",
+    heroEyebrowNew: "ASIA B2B GROUND SERVICE PARTNER",
+    heroHeadlineNew: "아시아 B2B 여행 파트너",
     heroTitleNew:
-      "대만 시장 기반 한국 인바운드 운영 경험을 바탕으로,\n일본·태국 아웃바운드 현지 서비스까지 확장합니다.",
+      "대만 인바운드 운영 경험을 기반으로,\n일본·태국 현지 서비스까지 연결합니다.",
     heroDescNew:
-      "영한여행사는 여행사, OTA, 현지 파트너를 위한 B2B 여행 서비스 기업입니다. 대만 택시투어·공항 픽업·샌딩·VIP 패스트트랙을 중심으로, 일본 단독차량투어와 공항 이동, 태국 VIP 패스트트랙과 차량 이동까지 국가별 현지 서비스를 안정적으로 연결합니다.",
-    heroBtnPrimaryNew: "B2B 제휴 문의하기",
-    heroBtnSecondaryNew: "국가별 서비스 보기",
+      "영한여행사는 여행사, OTA, DMC, 현지 파트너를 위한 B2B 여행 서비스 기업입니다. 공항 픽업·샌딩, VIP 패스트트랙, 전용 차량, 택시투어, 단독차량투어를 국가별 운영 조건에 맞춰 안정적으로 수배합니다.",
+    heroBtnPrimaryNew: "B2B 상담 신청",
+    heroBtnSecondaryNew: "서비스 라인업 보기",
+    heroProof1New: "공항 서비스",
+    heroProof2New: "전용 차량",
+    heroProof3New: "VIP 패스트트랙",
+    heroProof4New: "파트너 수배 대응",
+    heroFlow1New: "파트너 문의 접수",
+    heroFlow2New: "국가별 가능 여부 확인",
+    heroFlow3New: "견적·수배·운영 지원",
 
     trust1TitleNew: "운영 시장",
     trust1TextNew: "한국 · 대만 · 일본 · 태국",
-    trust2TitleNew: "핵심 서비스 라인",
-    trust2TextNew: "공항 서비스 · 차량 이동 · 현지 투어",
+    trust2TitleNew: "서비스 모듈",
+    trust2TextNew: "공항 · 차량 · 투어 · 패스트트랙",
     trust3TitleNew: "파트너 중심 운영",
     trust3TextNew: "여행사 · OTA · DMC 협업 대응",
     trust4TitleNew: "실무형 상담",
@@ -39,8 +48,29 @@ const translations = {
     aboutStep2TextNew: "대만·일본·태국 공항 및 차량 서비스 확장",
     aboutStep3TitleNew: "B2B Partnership",
     aboutStep3TextNew: "여행사·OTA·현지 파트너를 위한 수배 협업",
+    aboutCard1New: "대만 시장 기반 한국 인바운드 운영 경험",
+    aboutCard2New: "Taiwan · Japan · Thailand 현지 서비스",
+    aboutCard3New: "Travel Agency · OTA · DMC · Local Partner",
 
-    whyTitleNew: "파트너사가 영한여행사를\n선택해야 하는 이유",
+    proofTitleNew: "거래처가 궁금해하는 신뢰 요소를 먼저 보여줍니다.",
+    proofDescNew:
+      "B2B 파트너에게 중요한 것은 예쁜 소개보다 실제 운영 가능 여부, 빠른 확인, 명확한 책임 범위입니다. 영한여행사는 회사 정보, 서비스 범위, 상담 채널, 운영 프로세스를 투명하게 안내합니다.",
+    proof1TitleNew: "법인 여행사 정보 공개",
+    proof1TextNew:
+      "회사명, 대표번호, 사업자등록번호, 주소 등 거래 검토에 필요한 기본 정보를 명확히 제공합니다.",
+    proof2TitleNew: "보증보험 가입 안내",
+    proof2TextNew:
+      "여행자 보호와 신뢰 가능한 거래를 위해 관련 법령을 준수하고 보증보험 정보를 안내합니다.",
+    proof3TitleNew: "국가별 서비스 범위 명확화",
+    proof3TextNew:
+      "대만, 일본, 태국, 한국 인바운드 서비스 범위를 구분해 파트너가 바로 판매 구조를 잡을 수 있도록 돕습니다.",
+    proof4TitleNew: "B2B 상담 채널 운영",
+    proof4TextNew:
+      "이메일, 전화, 카카오톡 등 실무자가 빠르게 문의하고 확인할 수 있는 접점을 제공합니다.",
+
+    visualNoteTitleNew:
+      "국가별 현지 서비스를 파트너 판매 구조에 맞춰 연결합니다.",
+    whyTitleNew: "파트너사가 영한여행사를 선택해야 하는 이유",
     whyDescNew:
       "B2B 여행 서비스에서 중요한 것은 단순한 가격표가 아니라, 정확한 수배, 빠른 확인, 현지 상황에 맞는 운영 대응입니다. 영한여행사는 국가별 서비스 범위를 명확히 구분하고, 파트너사가 고객에게 안정적으로 판매할 수 있는 형태로 서비스를 제공합니다.",
     whyPoint1New: "대만 시장 기반 한국 인바운드 운영 경험",
@@ -86,6 +116,23 @@ const translations = {
     koreaService3New: "기업 및 인센티브 여행",
     koreaService4New: "맞춤 일정 운영",
 
+    operationTitleNew:
+      "예쁜 상품보다 중요한 것은, 실제 현장에서 문제 없이 움직이는 운영입니다.",
+    operationDescNew:
+      "영한여행사는 파트너가 판매하기 쉬운 구조와 현지에서 실행 가능한 조건을 함께 확인합니다. 항공편, 인원, 차량 조건, 미팅 포인트, 서비스 가능 여부를 기준으로 수배합니다.",
+    operation1TitleNew: "항공편·일정 확인",
+    operation1TextNew:
+      "도착·출발 항공편, 날짜, 시간, 호텔 위치를 기준으로 서비스 가능 여부를 확인합니다.",
+    operation2TitleNew: "차량·인원 조건 체크",
+    operation2TextNew:
+      "탑승 인원, 수하물, 이동 거리, 차량 타입을 확인해 적합한 차량 수배를 진행합니다.",
+    operation3TitleNew: "미팅 포인트 안내",
+    operation3TextNew:
+      "공항, 호텔, 현지 장소별 만남 위치와 진행 조건을 파트너에게 명확히 전달합니다.",
+    operation4TitleNew: "현지 운영 확인",
+    operation4TextNew:
+      "서비스 진행 전후 필요한 확인 사항을 실무 기준으로 체크하고 커뮤니케이션합니다.",
+
     processTitleNew: "문의부터 현지 수배까지, 파트너 기준으로 움직입니다.",
     processDescNew:
       "여행사와 OTA가 가장 필요로 하는 것은 빠른 확인과 안정적인 현지 연결입니다. 영한여행사는 국가, 인원, 일정, 항공편, 차량 조건을 기준으로 실무형 수배를 진행합니다.",
@@ -110,13 +157,26 @@ const translations = {
     partnerPoint2New: "여행사·OTA 상품 입점 협업",
     partnerPoint3New: "공항 픽업·샌딩·패스트트랙 수배",
     partnerPoint4New: "단독 차량·택시투어·편도 이동 운영",
+    partnerKit1New: "상품 입점용 서비스 설명 정리",
+    partnerKit2New: "국가별 가능 조건 확인",
+    partnerKit3New: "견적·수배 상담 지원",
     partnerBtnNew: "제휴 문의하기",
 
     contactTitleNew: "서비스 견적 및 제휴 문의",
     contactDescNew:
       "대만, 일본, 태국 현지 서비스 견적 문의와 여행사·OTA·현지 파트너 제휴 상담은 아래 채널로 연락해 주세요.",
+    quoteGuideTitleNew: "빠른 견적을 위해 아래 정보를 함께 보내주세요.",
+    quoteGuide1New: "국가 / 도시 / 서비스 종류",
+    quoteGuide2New: "이용 날짜와 항공편 정보",
+    quoteGuide3New: "인원 수와 수하물 개수",
+    quoteGuide4New: "호텔명 또는 이동 구간",
     contactServicesNew:
       "대만 택시투어 · 대만/일본/태국 공항 픽업 · 샌딩 · VIP 패스트트랙 · 전용 차량 · 편도 이동 · B2B 제휴",
+
+    footerCtaTitleNew: "국가별 현지 서비스와 B2B 제휴 상담이 필요하신가요?",
+    footerCtaBtnNew: "문의하기",
+    footerDescNew:
+      "대만 시장 기반 한국 인바운드 운영 경험을 바탕으로 대만, 일본, 태국 현지 서비스를 연결하는 B2B 여행 파트너입니다.",
 
     companyLabel: "회사명",
     serviceLabel: "전문 서비스",
@@ -127,29 +187,38 @@ const translations = {
 
   en: {
     navAboutNew: "About",
+    navProofNew: "Trust",
     navWhyNew: "Strengths",
-    navServicesNew: "Country Services",
+    navServicesNew: "Services",
+    navOperationNew: "Operation",
     navProcessNew: "Workflow",
     navPartnershipNew: "Partnership",
     navContactNew: "Contact",
 
-    heroEyebrowNew: "TAIWAN INBOUND SPECIALIST · ASIA B2B GROUND SERVICE",
-    heroHeadlineNew: "A B2B travel service partner\nconnecting Korea and Asia",
+    heroEyebrowNew: "ASIA B2B GROUND SERVICE PARTNER",
+    heroHeadlineNew: "Asia B2B Travel Partner",
     heroTitleNew:
-      "Based on our Korea inbound operation experience from the Taiwan market,\nwe are expanding into Japan and Thailand outbound local services.",
+      "Based on Taiwan inbound operation experience,\nwe connect Japan and Thailand local services.",
     heroDescNew:
-      "Younghan Travel is a B2B travel service company for travel agencies, OTAs, and local partners. We provide Taiwan taxi tours, airport pickup and drop-off, VIP fast track, Japan private vehicle tours and airport transfers, as well as Thailand VIP fast track and vehicle transfer services.",
-    heroBtnPrimaryNew: "B2B Partnership Inquiry",
-    heroBtnSecondaryNew: "View Country Services",
+      "Younghan Travel is a B2B travel service company for travel agencies, OTAs, DMCs, and local partners. We arrange airport transfers, VIP fast track, private vehicles, taxi tours, and private vehicle tours according to each country’s operating conditions.",
+    heroBtnPrimaryNew: "B2B Consultation",
+    heroBtnSecondaryNew: "View Service Line-up",
+    heroProof1New: "Airport Service",
+    heroProof2New: "Private Vehicle",
+    heroProof3New: "VIP Fast Track",
+    heroProof4New: "Partner Arrangement",
+    heroFlow1New: "Partner Inquiry",
+    heroFlow2New: "Country Availability Check",
+    heroFlow3New: "Quote · Arrange · Operate",
 
     trust1TitleNew: "Operating Markets",
     trust1TextNew: "Korea · Taiwan · Japan · Thailand",
-    trust2TitleNew: "Core Service Lines",
-    trust2TextNew: "Airport · Vehicle · Local Tour",
-    trust3TitleNew: "Partner-focused Operation",
-    trust3TextNew: "Travel Agency · OTA · DMC",
-    trust4TitleNew: "Practical Consultation",
-    trust4TextNew: "Quotation · Itinerary · Arrangement",
+    trust2TitleNew: "Service Modules",
+    trust2TextNew: "Airport · Vehicle · Tour · Fast Track",
+    trust3TitleNew: "Partner-focused",
+    trust3TextNew: "Agency · OTA · DMC Cooperation",
+    trust4TitleNew: "Practical Support",
+    trust4TextNew: "Quote · Itinerary · Local Arrangement",
 
     aboutTitleNew:
       "Younghan Travel started from Korea inbound operations based on the Taiwan market and is expanding into local services across Asia.",
@@ -159,14 +228,24 @@ const translations = {
       "Today, we are expanding our inbound operation capability into local services in Taiwan, Japan, and Thailand. We provide airport pickup and drop-off, VIP fast track, private vehicles, one-way transfers, taxi tours, and private vehicle tours that travel agencies and OTAs can sell and operate directly.",
     aboutText3New:
       "Our goal is to help partners reduce the burden of local operations and provide travelers with a more reliable travel experience.",
-    aboutStep1TitleNew: "Taiwan Market",
-    aboutStep1TextNew: "Korea inbound operation experience based on the Taiwan market",
-    aboutStep2TitleNew: "Asia Service Network",
-    aboutStep2TextNew: "Airport and vehicle service expansion in Taiwan, Japan, and Thailand",
-    aboutStep3TitleNew: "B2B Partnership",
-    aboutStep3TextNew: "Local arrangement cooperation for agencies, OTAs, and local partners",
 
-    whyTitleNew: "Why partners choose\nYounghan Travel",
+    proofTitleNew: "We show the trust factors partners need first.",
+    proofDescNew:
+      "For B2B partners, what matters is operational availability, fast confirmation, and clear responsibility. Younghan Travel clearly presents company information, service coverage, contact channels, and operation process.",
+    proof1TitleNew: "Company Information",
+    proof1TextNew:
+      "We clearly provide essential company details for partner review, including company name, phone number, registration number, and address.",
+    proof2TitleNew: "Insurance Information",
+    proof2TextNew:
+      "We comply with relevant regulations and provide insurance information for safer and more reliable transactions.",
+    proof3TitleNew: "Clear Service Coverage",
+    proof3TextNew:
+      "We separate Taiwan, Japan, Thailand, and Korea inbound service coverage so partners can build sales structures quickly.",
+    proof4TitleNew: "B2B Contact Channels",
+    proof4TextNew:
+      "We provide practical contact points such as email, phone, and KakaoTalk for faster business communication.",
+
+    whyTitleNew: "Why partners choose Younghan Travel",
     whyDescNew:
       "In B2B travel services, what matters is not only a price list but also accurate arrangement, quick confirmation, and local operational response. Younghan Travel clearly defines service coverage by country and provides services in a format that partners can sell with confidence.",
     whyPoint1New: "Korea inbound operation experience based on the Taiwan market",
@@ -180,69 +259,34 @@ const translations = {
     servicesDescNew:
       "We organize our core services by country so partners can understand and sell them easily. Taiwan focuses on taxi tours and airport services, Japan focuses on private vehicle tours and transfers, and Thailand focuses on VIP fast track and airport transfers.",
 
-    taiwanServiceTitleNew: "Taiwan Local Services",
-    taiwanServiceDescNew:
-      "Taiwan is Younghan Travel’s key operating market. We provide partner-friendly products centered on Korean-speaking taxi tours and airport services.",
-    taiwanService1New: "Airport pickup",
-    taiwanService2New: "Airport drop-off",
-    taiwanService3New: "Korean-speaking taxi tour",
-    taiwanService4New: "VIP airport fast track",
-
-    japanServiceTitleNew: "Japan Local Services",
-    japanServiceDescNew:
-      "Japan services focus on private vehicle tours, airport transfers, and one-way vehicle transfers for families, corporate travel, and private itineraries.",
-    japanService1New: "Private vehicle tour",
-    japanService2New: "Airport pickup",
-    japanService3New: "Airport drop-off",
-    japanService4New: "One-way vehicle transfer",
-
-    thailandServiceTitleNew: "Thailand Local Services",
-    thailandServiceDescNew:
-      "Thailand services focus on VIP fast track, airport pickup and drop-off, and vehicle transfers from arrival to hotel movement.",
-    thailandService1New: "VIP airport fast track",
-    thailandService2New: "Airport pickup",
-    thailandService3New: "Airport drop-off",
-    thailandService4New: "One-way vehicle transfer",
-
-    koreaServiceTitleNew: "Korea Inbound",
-    koreaServiceDescNew:
-      "Based on Korea inbound operation experience from the Taiwan market, we can operate group, corporate, and customized itineraries.",
-    koreaService1New: "Korea inbound package",
-    koreaService2New: "Group travel",
-    koreaService3New: "Corporate and incentive travel",
-    koreaService4New: "Customized itinerary operation",
+    operationTitleNew:
+      "What matters more than a beautiful product is reliable on-site operation.",
+    operationDescNew:
+      "Younghan Travel checks both partner-friendly sales structures and executable local conditions. We arrange services based on flights, passenger count, vehicle conditions, meeting points, and availability.",
 
     processTitleNew: "From inquiry to local arrangement, we work by partner standards.",
     processDescNew:
       "What travel agencies and OTAs need most is fast confirmation and stable local connection. Younghan Travel arranges services based on country, passenger count, itinerary, flight, and vehicle requirements.",
-    process1TitleNew: "Service Inquiry",
-    process1TextNew:
-      "We review the country, itinerary, flight, passenger count, and requested service.",
-    process2TitleNew: "Availability Check",
-    process2TextNew:
-      "We confirm local service availability, vehicle conditions, and fast track requirements.",
-    process3TitleNew: "Quotation & Arrangement",
-    process3TextNew:
-      "We provide quotation and operation details suitable for the partner’s sales structure.",
-    process4TitleNew: "Local Operation Support",
-    process4TextNew:
-      "We support operation checks during arrival, transfer, and service progress.",
 
     partnerTitleNew:
       "A reliable operating partner for travel agencies, OTAs, and local partners.",
     partnerTextNew:
       "Younghan Travel considers both partner sales and local operations. We do not simply connect services; we clarify service scope and operation conditions by country so partners can propose products to customers with confidence.",
-    partnerPoint1New: "Country-based local service supply",
-    partnerPoint2New: "Agency and OTA product cooperation",
-    partnerPoint3New: "Airport pickup, drop-off, and fast track arrangement",
-    partnerPoint4New: "Private vehicle, taxi tour, and one-way transfer operation",
     partnerBtnNew: "Partnership Inquiry",
 
     contactTitleNew: "Service Quotation & Partnership Inquiry",
     contactDescNew:
       "For Taiwan, Japan, and Thailand local service quotations or partnership inquiries with agencies, OTAs, and local partners, please contact us through the channels below.",
-    contactServicesNew:
-      "Taiwan taxi tour · Taiwan/Japan/Thailand airport pickup · drop-off · VIP fast track · private vehicle · one-way transfer · B2B partnership",
+    quoteGuideTitleNew: "For a faster quote, please send the details below.",
+    quoteGuide1New: "Country / City / Service Type",
+    quoteGuide2New: "Date and Flight Information",
+    quoteGuide3New: "Passenger Count and Luggage",
+    quoteGuide4New: "Hotel Name or Route",
+
+    footerCtaTitleNew: "Need local services or B2B partnership consultation?",
+    footerCtaBtnNew: "Contact Us",
+    footerDescNew:
+      "A B2B travel partner connecting Taiwan, Japan, and Thailand local services based on Korea inbound operation experience from the Taiwan market.",
 
     companyLabel: "Company",
     serviceLabel: "Specialized Services",
@@ -250,35 +294,43 @@ const translations = {
     phoneLabel: "Phone",
     comingSoon: "Coming soon"
   },
-
-  zh: {
+    zh: {
     navAboutNew: "公司介绍",
+    navProofNew: "信任指标",
     navWhyNew: "运营优势",
     navServicesNew: "国家服务",
+    navOperationNew: "运营体系",
     navProcessNew: "合作流程",
     navPartnershipNew: "合作咨询",
     navContactNew: "联系我们",
 
-    heroEyebrowNew: "TAIWAN INBOUND SPECIALIST · ASIA B2B GROUND SERVICE",
-    heroHeadlineNew: "连接韩国与亚洲的\nB2B旅游服务伙伴",
+    heroEyebrowNew: "ASIA B2B GROUND SERVICE PARTNER",
+    heroHeadlineNew: "亚洲B2B旅游合作伙伴",
     heroTitleNew:
-      "以台湾市场的韩国入境旅游运营经验为基础，\n扩展至日本、泰国当地出境服务。",
+      "以台湾入境旅游运营经验为基础，\n连接日本与泰国当地服务。",
     heroDescNew:
-      "Younghan Travel 是面向旅行社、OTA和当地合作伙伴的B2B旅游服务公司。我们以台湾出租车旅游、机场接送、VIP快速通关为中心，同时提供日本专车旅游与机场移动、泰国VIP快速通关及车辆移动等国家별当地服务。",
-    heroBtnPrimaryNew: "B2B 合作咨询",
-    heroBtnSecondaryNew: "查看国家服务",
+      "Younghan Travel 是面向旅行社、OTA、DMC及当地合作伙伴的B2B旅游服务公司。我们根据各国家的运营条件，稳定安排机场接送、VIP快速通关、专车、出租车旅游及专车旅游服务。",
+    heroBtnPrimaryNew: "B2B咨询",
+    heroBtnSecondaryNew: "查看服务项目",
+    heroProof1New: "机场服务",
+    heroProof2New: "专车服务",
+    heroProof3New: "VIP快速通关",
+    heroProof4New: "合作伙伴安排",
+    heroFlow1New: "接收伙伴咨询",
+    heroFlow2New: "确认国家별可行性",
+    heroFlow3New: "报价·安排·运营支持",
 
     trust1TitleNew: "运营市场",
     trust1TextNew: "韩国 · 台湾 · 日本 · 泰国",
-    trust2TitleNew: "核心服务线",
-    trust2TextNew: "机场服务 · 车辆移动 · 当地旅游",
+    trust2TitleNew: "服务模块",
+    trust2TextNew: "机场 · 车辆 · 旅游 · 快速通关",
     trust3TitleNew: "以伙伴为中心",
-    trust3TextNew: "旅行社 · OTA · DMC 合作",
+    trust3TextNew: "旅行社 · OTA · DMC合作",
     trust4TitleNew: "实务型咨询",
     trust4TextNew: "报价 · 行程 · 当地安排",
 
     aboutTitleNew:
-      "Younghan Travel 从台湾市场的韩国入境旅游运营经验出发，正在扩展至亚洲当地服务。",
+      "Younghan Travel 从台湾市场的韩国入境运营经验出发，正在扩展至亚洲当地服务。",
     aboutText1New:
       "Younghan Travel 是一家以台湾市场为中心运营韩国入境旅游并成长起来的专业旅游企业。我们不仅销售商品，也根据行程、航班、车辆和当地动线积累了实务型运营经验。",
     aboutText2New:
@@ -291,8 +343,29 @@ const translations = {
     aboutStep2TextNew: "台湾、日本、泰国机场及车辆服务扩展",
     aboutStep3TitleNew: "B2B Partnership",
     aboutStep3TextNew: "面向旅行社、OTA和当地伙伴的安排合作",
+    aboutCard1New: "以台湾市场为基础的韩国入境运营经验",
+    aboutCard2New: "Taiwan · Japan · Thailand 当地服务",
+    aboutCard3New: "Travel Agency · OTA · DMC · Local Partner",
 
-    whyTitleNew: "合作伙伴选择\nYounghan Travel 的理由",
+    proofTitleNew: "优先展示合作伙伴关心的信任要素。",
+    proofDescNew:
+      "对B2B合作伙伴来说，重要的不只是漂亮的介绍，而是实际运营能力、快速确认和明确的责任范围。Younghan Travel 透明说明公司信息、服务范围、咨询渠道和运营流程。",
+    proof1TitleNew: "公开法人旅行社信息",
+    proof1TextNew:
+      "明确提供公司名称、代表电话、营业执照号码、地址等合作审核所需的基本信息。",
+    proof2TitleNew: "保证保险信息",
+    proof2TextNew:
+      "为保护旅客并建立可信交易，我们遵守相关法规并提供保证保险信息。",
+    proof3TitleNew: "明确国家별服务范围",
+    proof3TextNew:
+      "区分台湾、日本、泰国及韩国入境服务范围，帮助合作伙伴快速建立销售结构。",
+    proof4TitleNew: "B2B咨询渠道",
+    proof4TextNew:
+      "提供邮箱、电话、KakaoTalk等实务人员可快速咨询和确认的联系渠道。",
+
+    visualNoteTitleNew:
+      "按照合作伙伴的销售结构连接各国家当地服务。",
+    whyTitleNew: "合作伙伴选择 Younghan Travel 的理由",
     whyDescNew:
       "在B2B旅游服务中，重要的不只是价格表，而是准确安排、快速确认和根据当地情况的运营应对。Younghan Travel 清楚区分各国家服务范围，并以合作伙伴可以安心销售的形式提供服务。",
     whyPoint1New: "以台湾市场为基础的韩国入境运营经验",
@@ -338,6 +411,23 @@ const translations = {
     koreaService3New: "企业及奖励旅游",
     koreaService4New: "定制行程运营",
 
+    operationTitleNew:
+      "比漂亮商品更重要的是，现场可以稳定执行的运营。",
+    operationDescNew:
+      "Younghan Travel 同时确认合作伙伴易于销售的结构和当地可执行条件。我们根据航班、人数、车辆条件、集合地点及服务可行性进行安排。",
+    operation1TitleNew: "确认航班与行程",
+    operation1TextNew:
+      "根据到达/出发航班、日期、时间和酒店位置确认服务可行性。",
+    operation2TitleNew: "确认车辆与人数条件",
+    operation2TextNew:
+      "确认乘客人数、行李、移动距离和车辆类型，安排合适车辆。",
+    operation3TitleNew: " 集合地点说明",
+    operation3TextNew:
+      "明确告知机场、酒店及当地地点的集合位置和服务条件。",
+    operation4TitleNew: "确认当地运营",
+    operation4TextNew:
+      "按照实务标准确认服务前后的必要事项并进行沟通。",
+
     processTitleNew: "从咨询到当地安排，以合作伙伴标准执行。",
     processDescNew:
       "旅行社和OTA最需要的是快速确认和稳定的当地连接。Younghan Travel 根据国家、人数、行程、航班、车辆条件进行实务型安排。",
@@ -362,13 +452,26 @@ const translations = {
     partnerPoint2New: "旅行社及OTA商品合作",
     partnerPoint3New: "机场接送与快速通关安排",
     partnerPoint4New: "专车、出租车旅游、单程移动运营",
+    partnerKit1New: "整理商品上架用服务说明",
+    partnerKit2New: "确认各国家可行条件",
+    partnerKit3New: "报价与安排咨询支持",
     partnerBtnNew: "合作咨询",
 
     contactTitleNew: "服务报价及合作咨询",
     contactDescNew:
       "台湾、日本、泰国当地服务报价以及旅行社、OTA、当地合作伙伴合作咨询，请通过以下渠道联系我们。",
+    quoteGuideTitleNew: "为了快速报价，请一并发送以下信息。",
+    quoteGuide1New: "国家 / 城市 / 服务类型",
+    quoteGuide2New: "使用日期和航班信息",
+    quoteGuide3New: "人数和行李数量",
+    quoteGuide4New: "酒店名称或移动区间",
     contactServicesNew:
       "台湾出租车旅游 · 台湾/日本/泰国机场接送 · VIP快速通关 · 专车 · 单程移动 · B2B合作",
+
+    footerCtaTitleNew: "需要国家별当地服务或B2B合作咨询吗？",
+    footerCtaBtnNew: "联系我们",
+    footerDescNew:
+      "以台湾市场的韩国入境运营经验为基础，连接台湾、日本、泰国当地服务的B2B旅游合作伙伴。",
 
     companyLabel: "公司名称",
     serviceLabel: "专业服务",
@@ -376,28 +479,36 @@ const translations = {
     phoneLabel: "电话",
     comingSoon: "准备中"
   },
-
-  ja: {
+    ja: {
     navAboutNew: "会社紹介",
+    navProofNew: "信頼指標",
     navWhyNew: "運営強み",
     navServicesNew: "国別サービス",
+    navOperationNew: "運営体制",
     navProcessNew: "協業方式",
     navPartnershipNew: "提携相談",
     navContactNew: "お問い合わせ",
 
-    heroEyebrowNew: "TAIWAN INBOUND SPECIALIST · ASIA B2B GROUND SERVICE",
-    heroHeadlineNew: "韓国とアジアをつなぐ\nB2B旅行サービスパートナー",
+    heroEyebrowNew: "ASIA B2B GROUND SERVICE PARTNER",
+    heroHeadlineNew: "アジアB2B旅行パートナー",
     heroTitleNew:
-      "台湾市場を基盤とした韓国インバウンド運営経験をもとに、\n日本・タイのアウトバウンド現地サービスへ拡大しています。",
+      "台湾インバウンド運営経験をもとに、\n日本・タイの現地サービスまでつなぎます。",
     heroDescNew:
-      "YOUNGHAN TRAVELは旅行会社、OTA、現地パートナー向けのB2B旅行サービス企業です。台湾タクシーツアー、空港ピックアップ・送迎、VIPファストトラックを中心に、日本の専用車ツアーと空港移動、タイのVIPファストトラックと車両移動まで国別現地サービスを安定的につなぎます。",
-    heroBtnPrimaryNew: "B2B提携相談",
-    heroBtnSecondaryNew: "国別サービスを見る",
+      "YOUNGHAN TRAVELは旅行会社、OTA、DMC、現地パートナー向けのB2B旅行サービス企業です。空港送迎、VIPファストトラック、専用車、タクシーツアー、専用車ツアーを国別の運営条件に合わせて安定的に手配します。",
+    heroBtnPrimaryNew: "B2B相談申請",
+    heroBtnSecondaryNew: "サービスを見る",
+    heroProof1New: "空港サービス",
+    heroProof2New: "専用車",
+    heroProof3New: "VIPファストトラック",
+    heroProof4New: "パートナー手配対応",
+    heroFlow1New: "パートナー問い合わせ受付",
+    heroFlow2New: "国別可否確認",
+    heroFlow3New: "見積·手配·運営支援",
 
     trust1TitleNew: "運営市場",
     trust1TextNew: "韓国 · 台湾 · 日本 · タイ",
-    trust2TitleNew: "主要サービスライン",
-    trust2TextNew: "空港サービス · 車両移動 · 現地ツアー",
+    trust2TitleNew: "サービスモジュール",
+    trust2TextNew: "空港 · 車両 · ツアー · ファストトラック",
     trust3TitleNew: "パートナー中心運営",
     trust3TextNew: "旅行会社 · OTA · DMC 協業対応",
     trust4TitleNew: "実務型相談",
@@ -417,8 +528,29 @@ const translations = {
     aboutStep2TextNew: "台湾・日本・タイの空港及び車両サービス拡大",
     aboutStep3TitleNew: "B2B Partnership",
     aboutStep3TextNew: "旅行会社・OTA・現地パートナー向け手配協業",
+    aboutCard1New: "台湾市場を基盤とした韓国インバウンド運営経験",
+    aboutCard2New: "Taiwan · Japan · Thailand 現地サービス",
+    aboutCard3New: "Travel Agency · OTA · DMC · Local Partner",
 
-    whyTitleNew: "パートナーが\nYOUNGHAN TRAVELを選ぶ理由",
+    proofTitleNew: "取引先が重視する信頼要素を先に示します。",
+    proofDescNew:
+      "B2Bパートナーにとって重要なのは、美しい紹介よりも実際の運営可否、迅速な確認、明確な責任範囲です。YOUNGHAN TRAVELは会社情報、サービス範囲、相談チャンネル、運営プロセスを透明に案内します。",
+    proof1TitleNew: "法人旅行会社情報の公開",
+    proof1TextNew:
+      "会社名、代表番号、事業者登録番号、住所など、取引検討に必要な基本情報を明確に提供します。",
+    proof2TitleNew: "保証保険加入案内",
+    proof2TextNew:
+      "旅行者保護と信頼できる取引のため、関連法令を遵守し保証保険情報を案内します。",
+    proof3TitleNew: "国別サービス範囲の明確化",
+    proof3TextNew:
+      "台湾、日本、タイ、韓国インバウンドサービス範囲を区分し、パートナーが販売構造を作りやすくします。",
+    proof4TitleNew: "B2B相談チャンネル運営",
+    proof4TextNew:
+      "メール、電話、KakaoTalkなど、実務担当者が素早く問い合わせ・確認できる接点を提供します。",
+
+    visualNoteTitleNew:
+      "国別現地サービスをパートナーの販売構造に合わせてつなぎます。",
+    whyTitleNew: "パートナーがYOUNGHAN TRAVELを選ぶ理由",
     whyDescNew:
       "B2B旅行サービスで重要なのは単なる価格表ではなく、正確な手配、迅速な確認、現地状況に合わせた運営対応です。YOUNGHAN TRAVELは国別サービス範囲を明確に区分し、パートナーが安心して販売できる形でサービスを提供します。",
     whyPoint1New: "台湾市場を基盤とした韓国インバウンド運営経験",
@@ -464,6 +596,23 @@ const translations = {
     koreaService3New: "企業及びインセンティブ旅行",
     koreaService4New: "カスタム日程運営",
 
+    operationTitleNew:
+      "美しい商品より重要なのは、現場で問題なく動く運営です。",
+    operationDescNew:
+      "YOUNGHAN TRAVELはパートナーが販売しやすい構造と現地で実行可能な条件を一緒に確認します。航空便、人数、車両条件、ミーティングポイント、サービス可否を基準に手配します。",
+    operation1TitleNew: "航空便・日程確認",
+    operation1TextNew:
+      "到着・出発便、日付、時間、ホテル位置を基準にサービス可否を確認します。",
+    operation2TitleNew: "車両・人数条件確認",
+    operation2TextNew:
+      "乗車人数、荷物、移動距離、車両タイプを確認し、適切な車両手配を進めます。",
+    operation3TitleNew: "集合場所案内",
+    operation3TextNew:
+      "空港、ホテル、現地場所別の集合位置と進行条件をパートナーへ明確に伝えます。",
+    operation4TitleNew: "現地運営確認",
+    operation4TextNew:
+      "サービス前後に必要な確認事項を実務基準でチェックし、コミュニケーションします。",
+
     processTitleNew: "お問い合わせから現地手配まで、パートナー基準で動きます。",
     processDescNew:
       "旅行会社とOTAが最も必要とするのは、迅速な確認と安定した現地連携です。YOUNGHAN TRAVELは国、人数、日程、航空便、車両条件を基準に実務型手配を行います。",
@@ -488,13 +637,26 @@ const translations = {
     partnerPoint2New: "旅行会社・OTA商品提携協業",
     partnerPoint3New: "空港ピックアップ・送迎・ファストトラック手配",
     partnerPoint4New: "専用車・タクシーツアー・片道移動運営",
+    partnerKit1New: "商品掲載用サービス説明整理",
+    partnerKit2New: "国別可能条件確認",
+    partnerKit3New: "見積・手配相談支援",
     partnerBtnNew: "提携相談",
 
     contactTitleNew: "サービス見積及び提携お問い合わせ",
     contactDescNew:
       "台湾、日本、タイ現地サービスの見積お問い合わせと旅行会社・OTA・現地パートナー提携相談は、下記チャンネルよりご連絡ください。",
+    quoteGuideTitleNew: "迅速な見積のため、以下の情報を一緒にお送りください。",
+    quoteGuide1New: "国 / 都市 / サービス種類",
+    quoteGuide2New: "利用日と航空便情報",
+    quoteGuide3New: "人数と荷物数",
+    quoteGuide4New: "ホテル名または移動区間",
     contactServicesNew:
       "台湾タクシーツアー · 台湾/日本/タイ空港ピックアップ · 送迎 · VIPファストトラック · 専用車 · 片道移動 · B2B提携",
+
+    footerCtaTitleNew: "国別現地サービスとB2B提携相談が必要ですか？",
+    footerCtaBtnNew: "お問い合わせ",
+    footerDescNew:
+      "台湾市場を基盤とした韓国インバウンド運営経験をもとに、台湾、日本、タイの現地サービスをつなぐB2B旅行パートナーです。",
 
     companyLabel: "会社名",
     serviceLabel: "専門サービス",
@@ -607,11 +769,13 @@ function setLanguage(lang) {
 
   document.documentElement.lang = htmlLangMap[selectedLanguage] || selectedLanguage;
 
-  document.title = pageMeta[selectedLanguage].title;
+  if (pageMeta[selectedLanguage]) {
+    document.title = pageMeta[selectedLanguage].title;
 
-  const metaDescription = document.querySelector('meta[name="description"]');
-  if (metaDescription) {
-    metaDescription.setAttribute("content", pageMeta[selectedLanguage].description);
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", pageMeta[selectedLanguage].description);
+    }
   }
 
   try {
@@ -700,6 +864,8 @@ function initSmoothScroll() {
         top: targetTop,
         behavior: "smooth"
       });
+
+      closeMobileMenu();
     });
   });
 }
@@ -764,6 +930,31 @@ function initActiveNavByScroll() {
   sections.forEach((item) => observer.observe(item.section));
 }
 
+function initMobileMenu() {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".nav");
+
+  if (!menuToggle || !nav) return;
+
+  menuToggle.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("open");
+
+    menuToggle.classList.toggle("active", isOpen);
+    menuToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+}
+
+function closeMobileMenu() {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".nav");
+
+  if (!menuToggle || !nav) return;
+
+  nav.classList.remove("open");
+  menuToggle.classList.remove("active");
+  menuToggle.setAttribute("aria-expanded", "false");
+}
+
 function getSavedLanguage() {
   try {
     return localStorage.getItem("younghanLanguage");
@@ -785,6 +976,7 @@ function initPage() {
   initSmoothScroll();
   initHeaderScrollEffect();
   initActiveNavByScroll();
+  initMobileMenu();
 }
 
 window.setLanguage = setLanguage;

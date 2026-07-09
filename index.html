@@ -11,13 +11,21 @@
     content="영한여행사 - 대만 시장 기반 한국 인바운드 운영 경험을 바탕으로 대만, 일본, 태국 공항 픽업·샌딩, VIP 패스트트랙, 전용 차량, 택시투어, B2B 여행사 제휴 서비스를 제공하는 여행 파트너"
   />
 
+  <meta name="theme-color" content="#071224" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="YOUNGHAN TRAVEL | B2B Korea & Asia Travel Service Partner" />
+  <meta
+    property="og:description"
+    content="대만·일본·태국 현지 공항 서비스, 차량 이동, VIP 패스트트랙, 택시투어를 연결하는 B2B 여행 서비스 파트너"
+  />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <!-- HEADER -->
   <header class="header">
-    <a href="#" class="logo" aria-label="YOUNGHAN TRAVEL Home">
+    <a href="#top" class="logo" aria-label="YOUNGHAN TRAVEL Home">
       <img src="logo.png" alt="YOUNGHAN TRAVEL Logo" />
       <div class="logo-text">
         <span>YOUNGHAN TRAVEL</span>
@@ -25,11 +33,24 @@
       </div>
     </a>
 
-    <nav class="nav" aria-label="Main navigation">
+    <button
+      type="button"
+      class="menu-toggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="siteNav"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="siteNav" class="nav" aria-label="Main navigation">
       <a href="#about" data-i18n="navAboutNew">회사소개</a>
+      <a href="#proof" data-i18n="navProofNew">신뢰지표</a>
       <a href="#why" data-i18n="navWhyNew">운영강점</a>
       <a href="#services" data-i18n="navServicesNew">국가별 서비스</a>
-      <a href="#process" data-i18n="navProcessNew">협업방식</a>
+      <a href="#operation" data-i18n="navOperationNew">운영체계</a>
       <a href="#partnership" data-i18n="navPartnershipNew">제휴문의</a>
       <a href="#contact" data-i18n="navContactNew">문의하기</a>
     </nav>
@@ -43,65 +64,85 @@
   </header>
 
   <!-- HERO -->
-  <section class="hero hero-b2b">
+  <section id="top" class="hero hero-b2b">
     <div class="hero-overlay"></div>
 
     <div class="hero-inner">
       <div class="hero-content fade">
         <p class="eyebrow" data-i18n="heroEyebrowNew">
-          TAIWAN INBOUND SPECIALIST · ASIA B2B GROUND SERVICE
+          ASIA B2B GROUND SERVICE PARTNER
         </p>
 
         <p class="hero-brand-name">YOUNGHAN TRAVEL</p>
 
         <h1 data-i18n="heroHeadlineNew">
-          한국과 아시아를 연결하는<br />
-          B2B 여행 서비스 파트너
+          아시아 B2B 여행 파트너
         </h1>
 
         <h2 data-i18n="heroTitleNew">
-          대만 시장 기반 한국 인바운드 운영 경험을 바탕으로,
-          일본·태국 아웃바운드 현지 서비스까지 확장합니다.
+          대만 인바운드 운영 경험을 기반으로,
+          일본·태국 현지 서비스까지 연결합니다.
         </h2>
 
         <p class="hero-desc" data-i18n="heroDescNew">
-          영한여행사는 여행사, OTA, 현지 파트너를 위한 B2B 여행 서비스 기업입니다.
-          대만 택시투어·공항 픽업·샌딩·VIP 패스트트랙을 중심으로,
-          일본 단독차량투어와 공항 이동, 태국 VIP 패스트트랙과 차량 이동까지
-          국가별 현지 서비스를 안정적으로 연결합니다.
+          영한여행사는 여행사, OTA, DMC, 현지 파트너를 위한 B2B 여행 서비스 기업입니다.
+          공항 픽업·샌딩, VIP 패스트트랙, 전용 차량, 택시투어, 단독차량투어를
+          국가별 운영 조건에 맞춰 안정적으로 수배합니다.
         </p>
 
         <div class="hero-buttons">
-          <a href="#partnership" class="btn primary" data-i18n="heroBtnPrimaryNew">
-            B2B 제휴 문의하기
+          <a href="#contact" class="btn primary" data-i18n="heroBtnPrimaryNew">
+            B2B 상담 신청
           </a>
           <a href="#services" class="btn secondary" data-i18n="heroBtnSecondaryNew">
-            국가별 서비스 보기
+            서비스 라인업 보기
           </a>
         </div>
-      </div>
 
-      <div class="hero-stats hero-service-board fade" aria-label="Younghan Travel service markets">
-        <div class="stat-card">
-          <strong>TW</strong>
-          <span>Taxi Tour · Airport Transfer · VIP Fast Track</span>
-        </div>
-
-        <div class="stat-card">
-          <strong>JP</strong>
-          <span>Private Vehicle Tour · Airport Transfer · One-way Transfer</span>
-        </div>
-
-        <div class="stat-card">
-          <strong>TH</strong>
-          <span>VIP Fast Track · Airport Transfer · Vehicle Transfer</span>
-        </div>
-
-        <div class="stat-card">
-          <strong>B2B</strong>
-          <span>Travel Agency · OTA · Local Partner</span>
+        <div class="hero-proof-list" aria-label="Younghan Travel core strengths">
+          <span data-i18n="heroProof1New">공항 서비스</span>
+          <span data-i18n="heroProof2New">전용 차량</span>
+          <span data-i18n="heroProof3New">VIP 패스트트랙</span>
+          <span data-i18n="heroProof4New">파트너 수배 대응</span>
         </div>
       </div>
+
+      <aside class="hero-command-card fade" aria-label="Younghan Travel service overview">
+        <div class="command-card-top">
+          <span>PARTNER DESK</span>
+          <strong>B2B Ground Service</strong>
+          <p>Airport · Vehicle · Tour · Fast Track</p>
+        </div>
+
+        <div class="command-highlight-grid">
+          <div class="command-highlight primary-market">
+            <small>Core Market</small>
+            <strong>TAIWAN</strong>
+            <span>Taxi Tour · Airport Transfer · VIP Fast Track</span>
+          </div>
+
+          <div class="command-highlight">
+            <small>Expansion</small>
+            <strong>JAPAN / THAILAND</strong>
+            <span>Private Vehicle · Airport Transfer · Local Service</span>
+          </div>
+        </div>
+
+        <div class="command-flow">
+          <div>
+            <span>01</span>
+            <p data-i18n="heroFlow1New">파트너 문의 접수</p>
+          </div>
+          <div>
+            <span>02</span>
+            <p data-i18n="heroFlow2New">국가별 가능 여부 확인</p>
+          </div>
+          <div>
+            <span>03</span>
+            <p data-i18n="heroFlow3New">견적·수배·운영 지원</p>
+          </div>
+        </div>
+      </aside>
     </div>
   </section>
 
@@ -115,9 +156,9 @@
       </div>
 
       <div class="trust-item">
-        <strong>3</strong>
-        <span data-i18n="trust2TitleNew">핵심 서비스 라인</span>
-        <p data-i18n="trust2TextNew">공항 서비스 · 차량 이동 · 현지 투어</p>
+        <strong>12+</strong>
+        <span data-i18n="trust2TitleNew">서비스 모듈</span>
+        <p data-i18n="trust2TextNew">공항 · 차량 · 투어 · 패스트트랙</p>
       </div>
 
       <div class="trust-item">
@@ -136,14 +177,16 @@
 
   <!-- ABOUT -->
   <section id="about" class="section about fade">
-    <p class="section-label">ABOUT US</p>
+    <div class="section-head">
+      <p class="section-label">ABOUT US</p>
 
-    <h2 class="section-title" data-i18n="aboutTitleNew">
-      영한여행사는 대만 시장 기반의 한국 인바운드 운영 경험에서 시작해,
-      아시아 현지 서비스로 확장하고 있습니다.
-    </h2>
+      <h2 class="section-title" data-i18n="aboutTitleNew">
+        영한여행사는 대만 시장 기반의 한국 인바운드 운영 경험에서 시작해,
+        아시아 현지 서비스로 확장하고 있습니다.
+      </h2>
+    </div>
 
-    <div class="section-grid">
+    <div class="section-grid about-grid">
       <div class="about-left">
         <p data-i18n="aboutText1New">
           영한여행사는 대만 시장을 중심으로 한국 인바운드 여행을 운영하며 성장해온 여행 전문 기업입니다.
@@ -182,36 +225,112 @@
         </div>
       </div>
 
-      <div class="about-card">
-        <h3>YOUNGHAN TRAVEL</h3>
-        <p>B2B Korea & Asia Travel Service Partner</p>
+      <div class="about-visual-card">
+        <div class="about-image">
+          <img src="brand-visual.png" alt="Younghan Travel B2B Service Network" />
+        </div>
 
-        <div class="stats">
-          <div>
-            <strong>Taiwan Inbound Base</strong>
-            <span>대만 시장 기반 한국 인바운드 운영 경험</span>
-          </div>
+        <div class="about-card">
+          <h3>YOUNGHAN TRAVEL</h3>
+          <p>B2B Korea & Asia Travel Service Partner</p>
 
-          <div>
-            <strong>Asia Ground Service</strong>
-            <span>Taiwan · Japan · Thailand 현지 서비스</span>
-          </div>
+          <div class="stats">
+            <div>
+              <strong>Taiwan Inbound Base</strong>
+              <span data-i18n="aboutCard1New">대만 시장 기반 한국 인바운드 운영 경험</span>
+            </div>
 
-          <div>
-            <strong>Partner Operation</strong>
-            <span>Travel Agency · OTA · DMC · Local Partner</span>
+            <div>
+              <strong>Asia Ground Service</strong>
+              <span data-i18n="aboutCard2New">Taiwan · Japan · Thailand 현지 서비스</span>
+            </div>
+
+            <div>
+              <strong>Partner Operation</strong>
+              <span data-i18n="aboutCard3New">Travel Agency · OTA · DMC · Local Partner</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- PROOF -->
+  <section id="proof" class="section proof-section fade">
+    <div class="section-head center">
+      <p class="section-label">TRUST & OPERATION PROOF</p>
+
+      <h2 class="section-title" data-i18n="proofTitleNew">
+        거래처가 궁금해하는 신뢰 요소를 먼저 보여줍니다.
+      </h2>
+
+      <p class="section-desc" data-i18n="proofDescNew">
+        B2B 파트너에게 중요한 것은 예쁜 소개보다 실제 운영 가능 여부, 빠른 확인, 명확한 책임 범위입니다.
+        영한여행사는 회사 정보, 서비스 범위, 상담 채널, 운영 프로세스를 투명하게 안내합니다.
+      </p>
+    </div>
+
+    <div class="proof-grid">
+      <article class="proof-card">
+        <span>01</span>
+        <h3 data-i18n="proof1TitleNew">법인 여행사 정보 공개</h3>
+        <p data-i18n="proof1TextNew">
+          회사명, 대표번호, 사업자등록번호, 주소 등 거래 검토에 필요한 기본 정보를 명확히 제공합니다.
+        </p>
+      </article>
+
+      <article class="proof-card">
+        <span>02</span>
+        <h3 data-i18n="proof2TitleNew">보증보험 가입 안내</h3>
+        <p data-i18n="proof2TextNew">
+          여행자 보호와 신뢰 가능한 거래를 위해 관련 법령을 준수하고 보증보험 정보를 안내합니다.
+        </p>
+      </article>
+
+      <article class="proof-card">
+        <span>03</span>
+        <h3 data-i18n="proof3TitleNew">국가별 서비스 범위 명확화</h3>
+        <p data-i18n="proof3TextNew">
+          대만, 일본, 태국, 한국 인바운드 서비스 범위를 구분해 파트너가 바로 판매 구조를 잡을 수 있도록 돕습니다.
+        </p>
+      </article>
+
+      <article class="proof-card">
+        <span>04</span>
+        <h3 data-i18n="proof4TitleNew">B2B 상담 채널 운영</h3>
+        <p data-i18n="proof4TextNew">
+          이메일, 전화, 카카오톡 등 실무자가 빠르게 문의하고 확인할 수 있는 접점을 제공합니다.
+        </p>
+      </article>
+    </div>
+
+    <div class="partner-segment-wall" aria-label="Partner segments">
+      <span>Travel Agency</span>
+      <span>OTA</span>
+      <span>DMC</span>
+      <span>Corporate</span>
+      <span>FIT / VIP</span>
+      <span>Local Operator</span>
+    </div>
+  </section>
+
   <!-- WHY YOUNGHAN -->
   <section id="why" class="brand-story section fade">
     <div class="brand-story-grid">
+     
       <div class="brand-visual">
-        <img src="brand-visual.png" alt="Younghan Travel B2B Service Network" />
-      </div>
+
+    <div class="brand-images">
+        <img src="paul.png" alt="">
+        <img src="brand-visual.png" alt="">
+    </div>
+
+    <div class="visual-note-card">
+        <span>WHY PARTNERS TRUST US</span>
+        <strong>국가별 현지 서비스를 파트너 판매 구조에 맞춰 연결합니다.</strong>
+    </div>
+
+</div>
 
       <div class="brand-text">
         <p class="section-label">WHY YOUNGHAN TRAVEL</p>
@@ -229,32 +348,38 @@
 
         <div class="feature-grid why-grid">
           <div class="feature-card">
-            <h4>01 · Taiwan Expertise</h4>
+            <span class="feature-icon">01</span>
+            <h4>Taiwan Expertise</h4>
             <p data-i18n="whyPoint1New">대만 시장 기반 한국 인바운드 운영 경험</p>
           </div>
 
           <div class="feature-card">
-            <h4>02 · Country Focus</h4>
+            <span class="feature-icon">02</span>
+            <h4>Country Focus</h4>
             <p data-i18n="whyPoint2New">대만·일본·태국 국가별 서비스 범위 명확화</p>
           </div>
 
           <div class="feature-card">
-            <h4>03 · Airport Service</h4>
+            <span class="feature-icon">03</span>
+            <h4>Airport Service</h4>
             <p data-i18n="whyPoint3New">공항 픽업·샌딩·VIP 패스트트랙 연결</p>
           </div>
 
           <div class="feature-card">
-            <h4>04 · Vehicle Arrangement</h4>
+            <span class="feature-icon">04</span>
+            <h4>Vehicle Arrangement</h4>
             <p data-i18n="whyPoint4New">단독차량투어·전용 차량·편도 이동 수배</p>
           </div>
 
           <div class="feature-card">
-            <h4>05 · B2B Ready</h4>
+            <span class="feature-icon">05</span>
+            <h4>B2B Ready</h4>
             <p data-i18n="whyPoint5New">여행사·OTA 상품 판매 구조에 맞춘 협업</p>
           </div>
 
           <div class="feature-card">
-            <h4>06 · Practical Support</h4>
+            <span class="feature-icon">06</span>
+            <h4>Practical Support</h4>
             <p data-i18n="whyPoint6New">견적, 일정, 현지 수배를 실무 기준으로 대응</p>
           </div>
         </div>
@@ -273,22 +398,24 @@
 
   <!-- COUNTRY SERVICES -->
   <section id="services" class="section dark fade">
-    <p class="section-label">COUNTRY SERVICE LINE-UP</p>
+    <div class="section-head">
+      <p class="section-label">COUNTRY SERVICE LINE-UP</p>
 
-    <h2 class="section-title" data-i18n="servicesTitleNew">
-      국가별로 필요한 현지 서비스를 명확하게 제공합니다.
-    </h2>
+      <h2 class="section-title" data-i18n="servicesTitleNew">
+        국가별로 필요한 현지 서비스를 명확하게 제공합니다.
+      </h2>
 
-    <p class="section-desc dark-desc" data-i18n="servicesDescNew">
-      파트너사가 바로 이해하고 판매할 수 있도록 국가별 핵심 서비스를 구분했습니다.
-      대만은 택시투어와 공항 서비스를 중심으로, 일본은 단독차량투어와 차량 이동,
-      태국은 VIP 패스트트랙과 공항 이동 서비스를 중심으로 운영합니다.
-    </p>
+      <p class="section-desc dark-desc" data-i18n="servicesDescNew">
+        파트너사가 바로 이해하고 판매할 수 있도록 국가별 핵심 서비스를 구분했습니다.
+        대만은 택시투어와 공항 서비스를 중심으로, 일본은 단독차량투어와 차량 이동,
+        태국은 VIP 패스트트랙과 공항 이동 서비스를 중심으로 운영합니다.
+      </p>
+    </div>
 
     <div class="country-service-grid">
       <article class="country-service-card taiwan-service">
         <div class="country-service-top">
-          <span class="flag">🇹🇼</span>
+          <span class="flag">TW</span>
           <strong>TAIWAN</strong>
         </div>
 
@@ -309,7 +436,7 @@
 
       <article class="country-service-card japan-service">
         <div class="country-service-top">
-          <span class="flag">🇯🇵</span>
+          <span class="flag">JP</span>
           <strong>JAPAN</strong>
         </div>
 
@@ -330,7 +457,7 @@
 
       <article class="country-service-card thailand-service">
         <div class="country-service-top">
-          <span class="flag">🇹🇭</span>
+          <span class="flag">TH</span>
           <strong>THAILAND</strong>
         </div>
 
@@ -351,7 +478,7 @@
 
       <article class="country-service-card korea-service">
         <div class="country-service-top">
-          <span class="flag">🇰🇷</span>
+          <span class="flag">KR</span>
           <strong>KOREA</strong>
         </div>
 
@@ -372,18 +499,70 @@
     </div>
   </section>
 
+  <!-- OPERATION SYSTEM -->
+  <section id="operation" class="section operation-section fade">
+    <div class="section-head center">
+      <p class="section-label">OPERATION SYSTEM</p>
+
+      <h2 class="section-title" data-i18n="operationTitleNew">
+        예쁜 상품보다 중요한 것은, 실제 현장에서 문제 없이 움직이는 운영입니다.
+      </h2>
+
+      <p class="section-desc" data-i18n="operationDescNew">
+        영한여행사는 파트너가 판매하기 쉬운 구조와 현지에서 실행 가능한 조건을 함께 확인합니다.
+        항공편, 인원, 차량 조건, 미팅 포인트, 서비스 가능 여부를 기준으로 수배합니다.
+      </p>
+    </div>
+
+    <div class="operation-grid">
+      <article class="operation-card">
+        <span>01</span>
+        <h3 data-i18n="operation1TitleNew">항공편·일정 확인</h3>
+        <p data-i18n="operation1TextNew">
+          도착·출발 항공편, 날짜, 시간, 호텔 위치를 기준으로 서비스 가능 여부를 확인합니다.
+        </p>
+      </article>
+
+      <article class="operation-card">
+        <span>02</span>
+        <h3 data-i18n="operation2TitleNew">차량·인원 조건 체크</h3>
+        <p data-i18n="operation2TextNew">
+          탑승 인원, 수하물, 이동 거리, 차량 타입을 확인해 적합한 차량 수배를 진행합니다.
+        </p>
+      </article>
+
+      <article class="operation-card">
+        <span>03</span>
+        <h3 data-i18n="operation3TitleNew">미팅 포인트 안내</h3>
+        <p data-i18n="operation3TextNew">
+          공항, 호텔, 현지 장소별 만남 위치와 진행 조건을 파트너에게 명확히 전달합니다.
+        </p>
+      </article>
+
+      <article class="operation-card">
+        <span>04</span>
+        <h3 data-i18n="operation4TitleNew">현지 운영 확인</h3>
+        <p data-i18n="operation4TextNew">
+          서비스 진행 전후 필요한 확인 사항을 실무 기준으로 체크하고 커뮤니케이션합니다.
+        </p>
+      </article>
+    </div>
+  </section>
+
   <!-- PROCESS -->
   <section id="process" class="section process fade">
-    <p class="section-label">B2B WORKFLOW</p>
+    <div class="section-head">
+      <p class="section-label">B2B WORKFLOW</p>
 
-    <h2 class="section-title" data-i18n="processTitleNew">
-      문의부터 현지 수배까지, 파트너 기준으로 움직입니다.
-    </h2>
+      <h2 class="section-title" data-i18n="processTitleNew">
+        문의부터 현지 수배까지, 파트너 기준으로 움직입니다.
+      </h2>
 
-    <p class="section-desc" data-i18n="processDescNew">
-      여행사와 OTA가 가장 필요로 하는 것은 빠른 확인과 안정적인 현지 연결입니다.
-      영한여행사는 국가, 인원, 일정, 항공편, 차량 조건을 기준으로 실무형 수배를 진행합니다.
-    </p>
+      <p class="section-desc" data-i18n="processDescNew">
+        여행사와 OTA가 가장 필요로 하는 것은 빠른 확인과 안정적인 현지 연결입니다.
+        영한여행사는 국가, 인원, 일정, 항공편, 차량 조건을 기준으로 실무형 수배를 진행합니다.
+      </p>
+    </div>
 
     <div class="process-grid">
       <div class="process-card">
@@ -458,6 +637,12 @@
           </div>
         </div>
 
+        <div class="partner-kit">
+          <span data-i18n="partnerKit1New">상품 입점용 서비스 설명 정리</span>
+          <span data-i18n="partnerKit2New">국가별 가능 조건 확인</span>
+          <span data-i18n="partnerKit3New">견적·수배 상담 지원</span>
+        </div>
+
         <a href="#contact" class="btn primary" data-i18n="partnerBtnNew">
           제휴 문의하기
         </a>
@@ -472,17 +657,17 @@
         <div class="network-flow">
           <div>
             <strong>Partner</strong>
-            <span>Travel Agency · OTA</span>
+            <span>Travel Agency · OTA · DMC</span>
           </div>
 
           <div>
             <strong>Younghan</strong>
-            <span>Quotation · Arrangement</span>
+            <span>Quotation · Arrangement · Communication</span>
           </div>
 
           <div>
             <strong>Local Service</strong>
-            <span>Airport · Vehicle · Tour</span>
+            <span>Airport · Vehicle · Tour · Fast Track</span>
           </div>
 
           <div>
@@ -505,41 +690,57 @@
 
   <!-- CONTACT -->
   <section id="contact" class="section contact fade">
-    <p class="section-label">CONTACT</p>
+    <div class="section-head">
+      <p class="section-label">CONTACT</p>
 
-    <h2 class="section-title" data-i18n="contactTitleNew">
-      서비스 견적 및 제휴 문의
-    </h2>
+      <h2 class="section-title" data-i18n="contactTitleNew">
+        서비스 견적 및 제휴 문의
+      </h2>
 
-    <p class="contact-desc" data-i18n="contactDescNew">
-      대만, 일본, 태국 현지 서비스 견적 문의와 여행사·OTA·현지 파트너 제휴 상담은 아래 채널로 연락해 주세요.
-    </p>
+      <p class="contact-desc" data-i18n="contactDescNew">
+        대만, 일본, 태국 현지 서비스 견적 문의와 여행사·OTA·현지 파트너 제휴 상담은 아래 채널로 연락해 주세요.
+      </p>
+    </div>
 
     <div class="quick-inquiry">
       <a href="mailto:younghan768@naver.com?subject=대만%20공항%20서비스%20및%20택시투어%20문의" class="quick-btn">
-        🇹🇼 대만 서비스 문의
+        대만 서비스 문의
       </a>
       <a href="mailto:younghan768@naver.com?subject=일본%20차량%20및%20공항%20이동%20문의" class="quick-btn">
-        🇯🇵 일본 차량 문의
+        일본 차량 문의
       </a>
       <a href="mailto:younghan768@naver.com?subject=태국%20VIP%20패스트트랙%20및%20차량%20문의" class="quick-btn">
-        🇹🇭 태국 서비스 문의
+        태국 서비스 문의
       </a>
       <a href="mailto:younghan768@naver.com?subject=B2B%20제휴%20문의" class="quick-btn">
-        🤝 B2B 제휴 문의
+        B2B 제휴 문의
       </a>
+    </div>
+
+    <div class="quote-guide">
+      <div>
+        <p class="section-label">FAST QUOTE GUIDE</p>
+        <h3 data-i18n="quoteGuideTitleNew">빠른 견적을 위해 아래 정보를 함께 보내주세요.</h3>
+      </div>
+
+      <ul>
+        <li data-i18n="quoteGuide1New">국가 / 도시 / 서비스 종류</li>
+        <li data-i18n="quoteGuide2New">이용 날짜와 항공편 정보</li>
+        <li data-i18n="quoteGuide3New">인원 수와 수하물 개수</li>
+        <li data-i18n="quoteGuide4New">호텔명 또는 이동 구간</li>
+      </ul>
     </div>
 
     <div class="contact-grid">
       <div class="contact-card wide">
-        <div class="contact-icon">🏢</div>
+        <div class="contact-icon">01</div>
         <strong data-i18n="companyLabel">회사명</strong>
         <span>주식회사 영한여행사</span>
         <small>YOUNGHAN TRAVEL</small>
       </div>
 
       <div class="contact-card wide">
-        <div class="contact-icon">🧳</div>
+        <div class="contact-icon">02</div>
         <strong data-i18n="serviceLabel">전문 서비스</strong>
         <span data-i18n="contactServicesNew">
           대만 택시투어 · 대만/일본/태국 공항 픽업 · 샌딩 · VIP 패스트트랙 · 전용 차량 · 편도 이동 · B2B 제휴
@@ -547,37 +748,37 @@
       </div>
 
       <a href="mailto:younghan768@naver.com" class="contact-card">
-        <div class="contact-icon">📧</div>
+        <div class="contact-icon">03</div>
         <strong data-i18n="emailLabel">이메일</strong>
         <span>younghan768@naver.com</span>
       </a>
 
       <a href="tel:023389928" class="contact-card">
-        <div class="contact-icon">📞</div>
+        <div class="contact-icon">04</div>
         <strong data-i18n="phoneLabel">전화</strong>
         <span>02-338-9928</span>
       </a>
 
       <div class="contact-card">
-        <div class="contact-icon">💬</div>
+        <div class="contact-icon">05</div>
         <strong>카카오톡</strong>
         <span>@younghantravel</span>
       </div>
 
       <div class="contact-card">
-        <div class="contact-icon">📱</div>
+        <div class="contact-icon">06</div>
         <strong>LINE</strong>
         <span data-i18n="comingSoon">준비중</span>
       </div>
 
       <div class="contact-card">
-        <div class="contact-icon">🌐</div>
+        <div class="contact-icon">07</div>
         <strong>WhatsApp</strong>
         <span data-i18n="comingSoon">준비중</span>
       </div>
 
       <div class="contact-card">
-        <div class="contact-icon">💚</div>
+        <div class="contact-icon">08</div>
         <strong>WeChat</strong>
         <span data-i18n="comingSoon">준비중</span>
       </div>
@@ -587,9 +788,16 @@
   <!-- FOOTER CTA -->
   <section class="footer-cta">
     <div class="footer-cta-inner">
-      <p>READY TO PARTNER?</p>
-      <h2>국가별 현지 서비스와 B2B 제휴 상담이 필요하신가요?</h2>
-      <a href="#contact" class="btn primary">문의하기</a>
+      <div>
+        <p>READY TO PARTNER?</p>
+        <h2 data-i18n="footerCtaTitleNew">
+          국가별 현지 서비스와 B2B 제휴 상담이 필요하신가요?
+        </h2>
+      </div>
+
+      <a href="#contact" class="btn primary" data-i18n="footerCtaBtnNew">
+        문의하기
+      </a>
     </div>
   </section>
 
@@ -606,18 +814,19 @@
           </div>
         </div>
 
-        <p class="footer-desc">
+        <p class="footer-desc" data-i18n="footerDescNew">
           대만 시장 기반 한국 인바운드 운영 경험을 바탕으로
           대만, 일본, 태국 현지 서비스를 연결하는 B2B 여행 파트너입니다.
         </p>
 
         <div class="footer-quick">
-          <a href="#about">회사소개</a>
-          <a href="#why">운영강점</a>
-          <a href="#services">국가별 서비스</a>
-          <a href="#process">협업방식</a>
-          <a href="#partnership">제휴문의</a>
-          <a href="#contact">문의하기</a>
+          <a href="#about" data-i18n="navAboutNew">회사소개</a>
+          <a href="#proof" data-i18n="navProofNew">신뢰지표</a>
+          <a href="#why" data-i18n="navWhyNew">운영강점</a>
+          <a href="#services" data-i18n="navServicesNew">국가별 서비스</a>
+          <a href="#operation" data-i18n="navOperationNew">운영체계</a>
+          <a href="#partnership" data-i18n="navPartnershipNew">제휴문의</a>
+          <a href="#contact" data-i18n="navContactNew">문의하기</a>
         </div>
       </div>
 
