@@ -258,7 +258,37 @@ const translations = {
     servicesTitleNew: "Clear country-based local services for partner sales.",
     servicesDescNew:
       "We organize our core services by country so partners can understand and sell them easily. Taiwan focuses on taxi tours and airport services, Japan focuses on private vehicle tours and transfers, and Thailand focuses on VIP fast track and airport transfers.",
+taiwanServiceTitleNew: "Taiwan Local Services",
+taiwanServiceDescNew:
+  "Taiwan is Younghan Travel's core operating market. We provide partner-ready services focused on Korean-speaking taxi tours and airport transfers.",
+taiwanService1New: "Airport Pickup",
+taiwanService2New: "Airport Drop-off",
+taiwanService3New: "Korean-speaking Taxi Tour",
+taiwanService4New: "VIP Airport Fast Track",
 
+japanServiceTitleNew: "Japan Local Services",
+japanServiceDescNew:
+  "Japan services focus on private vehicle tours, airport transfers, and one-way transportation for families, business travelers, and private itineraries.",
+japanService1New: "Private Vehicle Tour",
+japanService2New: "Airport Pickup",
+japanService3New: "Airport Drop-off",
+japanService4New: "One-way Transfer",
+
+thailandServiceTitleNew: "Thailand Local Services",
+thailandServiceDescNew:
+  "Thailand services include VIP airport fast track, airport transfers, and one-way transportation from the airport to hotels.",
+thailandService1New: "VIP Airport Fast Track",
+thailandService2New: "Airport Pickup",
+thailandService3New: "Airport Drop-off",
+thailandService4New: "One-way Transfer",
+
+koreaServiceTitleNew: "Korea Inbound",
+koreaServiceDescNew:
+  "Based on our Korea inbound experience from the Taiwan market, we support group tours, corporate travel, and customized itineraries.",
+koreaService1New: "Korea Inbound Package",
+koreaService2New: "Group Travel",
+koreaService3New: "Corporate & Incentive Travel",
+koreaService4New: "Customized Itinerary",
     operationTitleNew:
       "What matters more than a beautiful product is reliable on-site operation.",
     operationDescNew:
